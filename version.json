@@ -1,23 +1,21 @@
 {
-  "latest_version": "3.4.11",
-  "release_date": "2026-09-15",
+  "latest_version": "3.5.12",
+  "release_date": "2026-09-22",
   "force_update": false,
-  "title": "🎉 LingCraft v3.4.11 热更发布 · 小说工坊高精光标定位/连续性审计持久化/目录树交互与视觉规范重构",
+  "title": "LingCraft v3.5.12 · 百家号全自动发文与封面智能自适应加固",
   "changelog": [
-    "1. 📐【高精光标定位引擎】构建不可见镜像测算引擎与 35% 黄金视距对齐，彻底根除软换行定位严重下偏与二次翻滚缺陷；",
-    "2. 💾【连续性审计持久化】构建后端数据库 + 前端本地双重历史台账与秒开机制，关闭弹窗重开 0ms 还原，杜绝重复扣费与重复生成；",
-    "3. 🪟【连续性审计宽屏化】报告弹窗扩容至 720px 自适应宽屏，升级专属垂直流式对比卡片，彻底告别文字竖条挤压与按钮穿墙；",
-    "4. 📑【目录树交互与拖拽】重构操作按钮为「悬浮替代字数」交互模型，释放 86px 幽灵占位；侧边栏扩至 270px 并新增左右拖拽调宽与本地记忆；",
-    "5. 🩺【AI检测垂直卡片】彻底修复右侧抽屉排查卡片横向挤压变形与文字竖排细条缺陷，重构为标准自适应垂直流式卡片；",
-    "6. ✨【系统视觉规范统一】全面剔除彩色 Emoji，全量替换为 Feather/Lucide 线性微矢 SVG 与极简圆点指示器规范。"
+    "修复了百家号公开发布弹窗按钮未识别导致发文卡住的问题",
+    "修复了百家号发文网络响应未确认时误报成功的假阳性问题",
+    "修复了百家号封面槽位选择器未命中导致封面上传失败的问题",
+    "修复了百家号自动挂载商品选项状态一致时被反向取消的问题",
+    "修复了百家号单篇及批量发布模式切换未联动按钮文案的问题",
+    "优化了百家号封面自适应算法，任意比例图片均可自动转为横版",
+    "优化了百家号发文错误实时拦截机制，出现阻断提示立即反馈"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.4.11.exe",
-  "hot_update_zip_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/hot_update_v3.4.11.zip",
-  "sha256": "18d7d6eb6ff1c91a4f6c3a8d98886417e2b8f0c82c5ba6961c82cc5ac0384c42",
-  "announcement": {
-    "id": "ann_20260915_v3411",
-    "title": "📢 v3.4.11 热更推送公告",
-    "content": "v3.4.11 已推送上线：1. 📐【高精光标定位引擎】构建不可见镜像测算引擎与 35% 黄金视距对齐，彻底根除软换行定位严重下偏与二次翻滚缺陷；。欢迎升级体验！"
-  },
-  "sha256_zip": "d05648159521522cfdbf472dbb34f2e9e8fd748a46967d9e671ebb4224e682ab"
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.12.exe",
+  "hot_update_zip_url": "",
+  "min_hot_update_version": "3.5.12",
+  "sha256": "00a739f065566f47f6fd022bc4e64540a18ca9a9df4d692376ab50f27e752f9c",
+  "announcement": null,
+  "sha256_zip": "0183658686266cf42eb32dc296692358a0cefc8f4815e496cdc42c8edbe02ba3"
 }
