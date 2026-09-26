@@ -1,21 +1,24 @@
 {
-  "latest_version": "3.5.12",
-  "release_date": "2026-09-22",
+  "latest_version": "3.5.14",
+  "release_date": "2026-09-26",
   "force_update": false,
-  "title": "LingCraft v3.5.12 · 百家号全自动发文与封面智能自适应加固",
+  "title": "LingCraft v3.5.14 · 40层降AI味重构、多平台分流与创作面板对齐",
   "changelog": [
-    "修复了百家号公开发布弹窗按钮未识别导致发文卡住的问题",
-    "修复了百家号发文网络响应未确认时误报成功的假阳性问题",
-    "修复了百家号封面槽位选择器未命中导致封面上传失败的问题",
-    "修复了百家号自动挂载商品选项状态一致时被反向取消的问题",
-    "修复了百家号单篇及批量发布模式切换未联动按钮文案的问题",
-    "优化了百家号封面自适应算法，任意比例图片均可自动转为横版",
-    "优化了百家号发文错误实时拦截机制，出现阻断提示立即反馈"
+    "修复了二创配图关闭时依然强行插入网络搜图的问题",
+    "修复了二创切换搜图时配图数量未自动联动填充的问题",
+    "修复了批量创作爆款选题时切入视角与爆点理由丢失的问题",
+    "新增了多平台内容分流（覆盖头条、百家号、公众号与通用）",
+    "新增了AI接口厂商预设中的豆包火山方舟官方Coding接入",
+    "新增了采集图片自动等比压缩至1280px，节省磁盘存储",
+    "优化了自媒体正文提示词为40层系统化去AI味专栏规范",
+    "优化了原创与二创面板表单布局，两面板字段严格镜像对齐",
+    "优化了AI生成默认温度为0.8，并增加输入数值智能折算",
+    "优化了朱雀模型与配图渠道控件为标准下拉框，交互更统一"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.12.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.14.exe",
   "hot_update_zip_url": "",
-  "min_hot_update_version": "3.5.12",
-  "sha256": "00a739f065566f47f6fd022bc4e64540a18ca9a9df4d692376ab50f27e752f9c",
+  "min_hot_update_version": "3.5.14",
+  "sha256": "4537bfd375879c3e7fe3b3193970f6bf3e21f3e22407b1b7855a660afd24a45d",
   "announcement": null,
-  "sha256_zip": "0183658686266cf42eb32dc296692358a0cefc8f4815e496cdc42c8edbe02ba3"
+  "sha256_zip": "abe7416838ebdb11685914575e7104fa3a05e07aa9b75bb5fd0774d4e5df2fe1"
 }
