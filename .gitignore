@@ -1,68 +1,43 @@
-# Python 运行缓存与字节码
+# =========================================================================
+# LingCraft-Release · 官方公开发布门户 Git 忽略规则 (.gitignore)
+# =========================================================================
+
+# 1. 严格禁止源代码与开发模块进入公开仓库（源码仅保存在官方私有库）
+*.py
+*.js
+*.css
+*.html
+*.bat
+*.vbs
+modules/
+static/
+license_server/
+license_tool/
+
+# 2. 严格禁止私密凭据、卡密私钥与运行时配置入库
+*.pem
+*.key
+*.dat
+*.env
+data/
+license.dat
+online_license.json
+
+# 3. 本地构建与打包临时产物
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-.venv/
-
-# PyInstaller / 构建产物
 build/
 dist/
 release/
 *.spec
-
-# 爬虫与输出缓存数据
-toutiao_output/
-test_img_output/
 *.log
+*.tmp
 *.zip
 *.tar.gz
 
-# 动态生成的私密运行凭证与水印状态
-data/.sys_state.dat
-license.dat
-license_tool/issued_licenses.txt
-
-# Ed25519 授权私钥 (绝不允许进入版本库/公网，仅管理员本地持有)
-license_tool/license_private_key.pem
-
-# 敏感 AI 配置 (请基于 ai_config.json.example 配置)
-data/ai_config.json
-
-# 在线授权服务整体 (卡密服务器代码/管理令牌/部署配置，绝不进入公开仓库)
-license_server/
-core.meta
-
-# IDE / 编辑器配置
+# 4. 操作系统与编辑器临时文件
 .vscode/
 .idea/
-*.swp
-*.swo
 .DS_Store
 Thumbs.db
-
-# =========================================================================
-# 源码与私密文件 (禁止进入公开仓库，防止逆向与泄露)
-# 仅 version.json (更新清单) 与 README.md 进入仓库
-# =========================================================================
-*.py
-*.html
-*.js
-*.css
-*.bat
-*.vbs
-*.md
-*.txt
-*.json
-*.spec
-static/
-modules/
-license_tool/
-data/
-宣发素材与封面图/
+Desktop.ini

@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🎬 LingCraft · 全能创作工具箱
 
@@ -7,14 +7,16 @@
 [![GitHub Release](https://img.shields.io/github/v/release/lingxiaoyiyu-hub/LingCraft-Release?color=0969da&label=Release&logo=github)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-brightgreen?logo=windows)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases)
 [![ModelScope Mirror](https://img.shields.io/badge/国内高速镜像-阿里云魔搭社区-orange?logo=alibabacloud)](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/files)
-[![License](https://img.shields.io/badge/License-Commercial-blue)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release)
+[![License](https://img.shields.io/badge/License-Commercial%20EULA-blue)](LICENSE)
 
 <br/>
 
-[📥 立即下载 Windows 安装包](#-下载与安装) &nbsp;•&nbsp; 
-[🚀 核心功能全览](#-核心功能矩阵) &nbsp;•&nbsp; 
-[📖 快速入门教程](#-快速使用指引) &nbsp;•&nbsp; 
-[🛡️ 安全与完整性校验](#-发布产物与哈希校验)
+[📥 立即下载](#-下载与安装) &nbsp;•&nbsp; 
+[🚀 功能矩阵](#-核心功能矩阵) &nbsp;•&nbsp; 
+[📖 安装指南](INSTALL_GUIDE.md) &nbsp;•&nbsp; 
+[❓ 常见问题](FAQ.md) &nbsp;•&nbsp; 
+[🛡️ 安全指引](SECURITY.md) &nbsp;•&nbsp; 
+[📝 更新日志](CHANGELOG.md)
 
 </div>
 
@@ -106,6 +108,17 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
    - 勾选感兴趣的文章，点击「一键智能二创」；
 4. **体验短剧与小说**：
    - 顶部导航点击「AI 短剧」或「AI 小说」，输入您的故事构思或直接将二创长文送入剧本流，体验专业影视级工业化分镜！
+
+## 📚 官方文档与服务导航
+
+| 文档指引 | 主要内容 |
+| :--- | :--- |
+| [📖 Windows 安装与防坑指南](INSTALL_GUIDE.md) | 系统要求、覆盖升级说明与 Windows SmartScreen 解决指引 |
+| [❓ 常见高频问答 (FAQ)](FAQ.md) | 会员激活、换机解绑、API Key 配置、数据保存与模型答疑 |
+| [🛡️ 安全策略与防伪指引](SECURITY.md) | 官方 SHA-256 哈希校验教程、Ed25519 数字签名机制与受信任渠道 |
+| [📝 官方版本更新日志](CHANGELOG.md) | 历代核心版本特性演进与更新详情 |
+| [⚖️ 商业最终用户许可协议](LICENSE) | 官方商业软件使用守则、免责声明与版权条款 |
+| [💬 反馈与需求征集](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/issues) | 提交 Bug 异常报告与功能改进构想 |
 
 ---
 
