@@ -1,34 +1,17 @@
 {
-  "latest_version": "3.5.15",
+  "latest_version": "3.5.16",
   "release_date": "2026-09-28",
   "force_update": false,
-  "title": "LingCraft v3.5.15 · 稳定版收口：采集与创作链路加固、更新清单签名校验",
+  "title": "LingCraft v3.5.16 · 内置AI模型通道升级与老用户配置自愈",
   "changelog": [
-    "修复了采集成果丢失、误报成功与列表卡死等十余项缺陷",
-    "修复了文章删除未生效却提示删除成功、同标题连带误删的问题",
-    "修复了解绑换机失败仍提示成功导致新设备无法激活的问题",
-    "修复了天卡到期时间在界面早显示8小时的问题",
-    "修复了生成报错内容入稿、丢稿与假阳性成功的问题",
-    "修复了第二次生成停不下来、新旧内容互相覆写的问题",
-    "修复了小说章节生成失败后该章节一直提示生成中的问题",
-    "修复了更新下载失败仍提示已启动、重开弹窗重复下载整包的问题",
-    "修复了批量发布关窗后无法停止、发布留痕账号为空的问题",
-    "修复了过期授权凭据被误判为破解导致功能受限的问题",
-    "修复了AI视频润色丢失原稿与中间产物残留磁盘的问题",
-    "新增了云端更新清单数字签名校验，清单被篡改时不再自动下载",
-    "新增了创作存档发布状态徽标与独立发布状态列",
-    "新增了短剧分镜历史查看与生成停止闭环",
-    "新增了更新弹窗手动下载安装包的备用通道",
-    "优化了标题三段式生成规则，恢复强冲突与反问收尾节奏",
-    "优化了AI视频脚本链路，去掉重复重试减少无效计费",
-    "优化了长文生成期间的授权校验频率，界面响应更流畅",
-    "更改了免费版功能范围，采集与AI创作全面转为VIP专属"
+    "修复了内置AI模型停用导致选题生成超时卡死的问题",
+    "优化了老用户模型配置迁移，启动自动就地升级至3.0"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.15.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.16.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "7f3793a2152ab4131be2ddb9e475b53102e252fcb785fb0a36bb569cd0b9a839",
+  "sha256": "696548de05ccef0c88814aa0a8ef496affd7bd7721f0266c6c5c87e41fdaa016",
   "announcement": null,
-  "sha256_zip": "de259a5587a31df120d2d67f7d0d7f82561fff8df6d2ca6582cce3cfdbe3e434",
-  "manifest_sig": "RkQY9d5vxPfh5mPERrlHXd9NAKK2FmcgSH4VVR2a4bRSwet+wlEBy2vxSQdrMNa2pM2Dw7OfOB4vfD1dQAQpCw=="
+  "sha256_zip": "6f4f9a9e0f6c7877073f72c1b1afed2c6f07f0edcc56f6c98346133b79d4636f",
+  "manifest_sig": "rvSuBh83HkshFYc0j4StVtWIeKXMATTRrIvzYgzXbTAK/FTLmZZWZH04cd0TZ285QmwaffkPldxQUFtED/ZNAg=="
 }
