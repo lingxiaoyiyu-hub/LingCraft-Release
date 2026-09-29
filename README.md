@@ -44,6 +44,9 @@
 
 <div align="center">
   <img src="assets/preview_scraper.png" alt="今日头条全站与作者文章采集配置" width="88%"/>
+  <p><sub>▲ 全网 18 大垂直赛道采集与去水印运行配置</sub></p>
+  <img src="assets/preview_viral_bank.png" alt="全网自媒体10万+实时爆文库" width="88%"/>
+  <p><sub>▲ 全网自媒体 10万+ 实时爆文监控雷达</sub></p>
 </div>
 
 ### 2. ✍️ AI 深度原创与端侧降痕润色
@@ -60,6 +63,11 @@
 - **多格式专业导出**：支持导出为 **Excel 表格、CSV、Markdown、Word**，可直接导入即梦 (Jimeng)、可灵 (Kling)、Runway 等 AI 视频工具进行批量生图与生视频。
 - **历史分镜管理**：项目全生命周期留痕，随时回看与重新生成。
 
+<div align="center">
+  <img src="assets/preview_drama.png" alt="AI 编剧与15秒影视级分镜工坊" width="88%"/>
+  <p><sub>▲ 15 秒卡点短视频分镜设计与 Prompt 一键导出</sub></p>
+</div>
+
 ### 4. 📚 AI 长篇小说工坊 (Novel Studio)
 - **专业长篇工业化大纲推演**：支持世界观设定、流派设定、核心主线规划、分卷大纲演化。
 - **角色关系与动态档案**：实时记录人物性格、金手指能力、隐藏身份与阵营关系，保证长篇连载角色不崩塌。
@@ -67,6 +75,7 @@
 
 <div align="center">
   <img src="assets/preview_novel.png" alt="AI 小说创作工坊与连载章节编辑" width="88%"/>
+  <p><sub>▲ 长篇小说大纲推演与连载正文批量扩写工作区</sub></p>
 </div>
 
 ### 5. 🎨 智能排版与多账号矩阵直发
@@ -80,6 +89,11 @@
 - **全自动视频流水线**：文章提取口播文案 → 智能配音 → 素材智能切片 → 字幕自动烧录 → 精选 BGM 混剪 → 本机合成 1080P MP4 视频。
 - **多样化声音库**：内置 14 款自然流利中文音色（涵盖男女声、故事旁白、悬疑说书、干练口播）。
 - **内置商用氛围曲库**：内置悬疑、中国风、舒缓等 8 款高品质背景音乐，支持自动淡入淡出。
+
+<div align="center">
+  <img src="assets/preview_video.png" alt="AI 视频视听制作参数与成果库" width="88%"/>
+  <p><sub>▲ AI 视频视听参数配置、双行字幕烧录与成片库</sub></p>
+</div>
 
 ---
 
