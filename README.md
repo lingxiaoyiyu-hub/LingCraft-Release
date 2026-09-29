@@ -1,13 +1,13 @@
-<div align="center">
+﻿<div align="center">
 
 # 🎬 LingCraft · 全能创作工具箱
 
 **自媒体爆文采集 · AI 智能原创与降痕 · AI 短剧分镜工坊 · AI 长篇小说工坊 · 视频成片与矩阵发布**
 
-[![GitHub Release](https://img.shields.io/github/v/release/lingxiaoyiyu-hub/toutiao-updater?color=0969da&label=Release&logo=github)](https://github.com/lingxiaoyiyu-hub/toutiao-updater/releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-brightgreen?logo=windows)](https://github.com/lingxiaoyiyu-hub/toutiao-updater/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/lingxiaoyiyu-hub/LingCraft-Release?color=0969da&label=Release&logo=github)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-brightgreen?logo=windows)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases)
 [![ModelScope Mirror](https://img.shields.io/badge/国内高速镜像-阿里云魔搭社区-orange?logo=alibabacloud)](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/files)
-[![License](https://img.shields.io/badge/License-Commercial-blue)](https://github.com/lingxiaoyiyu-hub/toutiao-updater)
+[![License](https://img.shields.io/badge/License-Commercial-blue)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release)
 
 <br/>
 
@@ -77,8 +77,8 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 
 | 发行版本 | 适用场景 | 官方下载直链 |
 | :--- | :--- | :--- |
-| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.16.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/toutiao-updater/releases/latest) |
-| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.5.16.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/toutiao-updater/releases/latest) |
+| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.16.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.5.16.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
 
 > 📌 **系统要求**：Windows 10 / Windows 11 (64-bit)。首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可正常开启。
 
@@ -119,3 +119,4 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 <div align="center">
   <sub>© 2026 LingCraft Team. All Rights Reserved.</sub>
 </div>
+
