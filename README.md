@@ -103,8 +103,8 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 
 | 发行版本 | 适用场景 | 官方下载直链 |
 | :--- | :--- | :--- |
-| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.16.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
-| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.5.16.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.17.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.5.17.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
 
 > 📌 **系统要求**：Windows 10 / Windows 11 (64-bit)。首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可正常开启。
 
@@ -116,8 +116,8 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 
 | 产物名称 | 文件大小 | SHA-256 校验和 |
 | :--- | :--- | :--- |
-| **LingCraft_Setup_v3.5.16.exe** | ~274 MB | `696548de05ccef0c88814aa0a8ef496affd7bd7721f0266c6c5c87e41fdaa016` |
-| **LingCraft_绿色免安装版_v3.5.16.zip** | ~264 MB | `6f4f9a9e0f6c7877073f72c1b1afed2c6f07f0edcc56f6c98346133b79d4636f` |
+| **LingCraft_Setup_v3.5.17.exe** | ~329 MB | `a00e3aaf641472e70b6e19e5f1e23ed95a6eb685ecdb45d47b03fa5f5a8c31e8` |
+| **LingCraft_绿色免安装版_v3.5.17.zip** | ~320 MB | `c5419457bac981d393458f3fecd72d21c066483c2de556e84eeadbd7f2c6e938` |
 
 *(可在 PowerShell 中通过 `Get-FileHash -Algorithm SHA256 <文件名>` 自行核验)*
 
