@@ -1,19 +1,17 @@
 {
-  "latest_version": "3.5.17",
-  "release_date": "2026-09-30",
+  "latest_version": "3.5.16",
+  "release_date": "2026-09-28",
   "force_update": false,
-  "title": "LingCraft v3.5.17 · 稳定性修复与更新通道迁移",
+  "title": "LingCraft v3.5.16 · 内置AI模型通道升级与老用户配置自愈",
   "changelog": [
-    "修复了推理模型生成文章长时间无响应被中断的问题",
-    "修复了配图复制粘贴到百家号或头条号上传失败的问题",
-    "修复了推送百家号时标题残留上一篇旧标题的问题",
-    "优化了客户端启动速度与重复双击引发的实例冲突"
+    "修复了内置AI模型停用导致选题生成超时卡死的问题",
+    "优化了老用户模型配置迁移，启动自动就地升级至3.0"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.17.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.16.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "0a2cecb36986d0a8c2c6b83e4d9f2c64955cb735c27b2867f818b475355ef73a",
+  "sha256": "696548de05ccef0c88814aa0a8ef496affd7bd7721f0266c6c5c87e41fdaa016",
   "announcement": null,
-  "sha256_zip": "d41bb914adda279350cc62c12d4059cd3fdcb6c7cb9420d00ffab15b53717d9b",
-  "manifest_sig": "E9RrpIvobvDvjqNd4ryjpfmyqCVaRF3giYduemC9kBde0Rf7NWnWqavSRZQhCRXfy33sAKTVtpKc5o/RaEkQCw=="
+  "sha256_zip": "6f4f9a9e0f6c7877073f72c1b1afed2c6f07f0edcc56f6c98346133b79d4636f",
+  "manifest_sig": "rvSuBh83HkshFYc0j4StVtWIeKXMATTRrIvzYgzXbTAK/FTLmZZWZH04cd0TZ285QmwaffkPldxQUFtED/ZNAg=="
 }
