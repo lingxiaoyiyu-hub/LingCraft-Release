@@ -1,25 +1,27 @@
 {
-  "latest_version": "3.5.18",
+  "latest_version": "3.6.0",
   "release_date": "2026-10-03",
   "force_update": false,
-  "title": "LingCraft v3.5.18 · 全网爆文板块上线与微头条创作",
+  "title": "零创 v3.6.0 · 品牌标语焕新与图标刷新修复",
   "changelog": [
-    "修复了二创改写时上一篇标题串进正文的问题",
-    "修复了只勾选微头条时采不到微头条内容的问题",
-    "修复了小屏下弹窗发布按钮被顶出屏幕点不到的问题",
-    "新增了AI创作「微头条」目标平台，自动绑定微头条发布形式",
-    "新增了配图关键词智能提炼与真实摄影优先排序",
-    "新增了头条正版高清与头条热点图库配图接入",
-    "重做了实时爆文板块，升级为「全网爆文」，支持按领域与阅读量实时检索采集",
-    "下架了「排版工具」板块、账号管理的「网易号」页签与Pexels图库配图入口",
-    "更改了「本地端侧模型」命名为「100%过朱雀检测模型」",
-    "更改了联系方式标注为「开发者QQ」与「开发者微信」"
+    "修复了批量创作与批量二创多篇任务丢失、失败篇目无提示的问题",
+    "修复了自动配图搜出不相干领域图片的问题",
+    "修复了文章头图被配成漫画、图解等非实景图的问题",
+    "修复了财经文章提到「大跳水」时误配跳水运动员图片的问题",
+    "修复了正文中多处配图重复使用同一张图的问题",
+    "修复了二创配图张数受原创面板输入框串扰的问题",
+    "修复了手动图库按人物搜图时空白无结果的问题",
+    "更改了软件显示名为「零创」，标语改为「从零开始创作」",
+    "更改了应用图标为全新设计，桌面与开始菜单图标同步更换",
+    "更改了桌面与开始菜单快捷方式名称为「零创」",
+    "更改了窗口标题栏为纯空白边框，不再显示文字与图标",
+    "优化了正版图库没有结果时优先补位新闻现场大图"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.18.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.0.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "e8bf2aee8ff3703593580a6eb1eec5bc74718c58e919b8876056ac2869cf297b",
+  "sha256": "b67cfd88cce854d7bc60dd83deb1b68be0013930f07e9e45a12e68238b4389f0",
   "announcement": null,
-  "sha256_zip": "a5faa5fba6287c1f04c806137f899e5d5a6b03e41c27c79ff9123590c91457df",
-  "manifest_sig": "XSWvw5HOsbfGTnsW0PlqdbdMhUcZIvjP37CQmHylHe/K/3E3nR5qoAXnMuEGVZ/QM7DloFk1nyqrMat4pyCjCA=="
+  "sha256_zip": "ca0a39c630f2b317afd3c3191988e59f92734161e6ceb7d205ac70b340ea6c84",
+  "manifest_sig": "zGZ/JjpqegxwyLCfSortKkJ5ISXCnEmG5LRJ4Vd9Wb38iqn+dzPLvVog1ZCF5DFFAteY252qi2tfZed+3Y7WBA=="
 }
