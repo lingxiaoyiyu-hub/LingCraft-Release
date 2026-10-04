@@ -1,27 +1,19 @@
 {
-  "latest_version": "3.6.0",
+  "latest_version": "3.6.1",
   "release_date": "2026-10-03",
   "force_update": false,
-  "title": "零创 v3.6.0 · 品牌标语焕新与图标刷新修复",
+  "title": "零创 v3.6.1 · 配图与创作体验优化",
   "changelog": [
-    "修复了批量创作与批量二创多篇任务丢失、失败篇目无提示的问题",
-    "修复了自动配图搜出不相干领域图片的问题",
-    "修复了文章头图被配成漫画、图解等非实景图的问题",
-    "修复了财经文章提到「大跳水」时误配跳水运动员图片的问题",
-    "修复了正文中多处配图重复使用同一张图的问题",
-    "修复了二创配图张数受原创面板输入框串扰的问题",
-    "修复了手动图库按人物搜图时空白无结果的问题",
-    "更改了软件显示名为「零创」，标语改为「从零开始创作」",
-    "更改了应用图标为全新设计，桌面与开始菜单图标同步更换",
-    "更改了桌面与开始菜单快捷方式名称为「零创」",
-    "更改了窗口标题栏为纯空白边框，不再显示文字与图标",
-    "优化了正版图库没有结果时优先补位新闻现场大图"
+    "优化了配图逻辑，关键词由AI按文章内容提炼，配图更贴合正文",
+    "优化了创作系统，二创文章条理更顺、表达更自然",
+    "更改了配图来源默认推荐百度搜图",
+    "更改了AI视频素材调用模式，只保留本地视频素材"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.0.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.1.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "b67cfd88cce854d7bc60dd83deb1b68be0013930f07e9e45a12e68238b4389f0",
+  "sha256": "77608737d7f24911c95b16c0702f0b42149f1bb3b6c13cbe9822ca32df050de3",
   "announcement": null,
-  "sha256_zip": "ca0a39c630f2b317afd3c3191988e59f92734161e6ceb7d205ac70b340ea6c84",
-  "manifest_sig": "zGZ/JjpqegxwyLCfSortKkJ5ISXCnEmG5LRJ4Vd9Wb38iqn+dzPLvVog1ZCF5DFFAteY252qi2tfZed+3Y7WBA=="
+  "sha256_zip": "db823bedce7d6d9a9ce508a48f6878d79bda3bcfc3f40ad127eb21fb0b548e17",
+  "manifest_sig": "9xaD3UtkNlPCHy9JVRAEmI3CP+LgXQ5J7JkcyRVfGybq3ljK6WKaEjKuBgoZuUJIB3fv6SKnJignqUxx92j+Ag=="
 }
