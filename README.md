@@ -103,10 +103,10 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 
 | 发行版本 | 适用场景 | 官方下载直链 |
 | :--- | :--- | :--- |
-| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.5.18.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
-| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.5.18.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.2.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.6.2.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
 
-> 📌 **系统要求**：Windows 10 / Windows 11 (64-bit)。首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可正常开启。
+> 📌 **系统要求**：Windows 10 / Windows 11 (64-bit)。**微信公众号的扫码绑定需要本机已安装 Microsoft Edge 或 Google Chrome**。首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可正常开启。
 
 ---
 
@@ -116,8 +116,8 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 
 | 产物名称 | 文件大小 | SHA-256 校验和 |
 | :--- | :--- | :--- |
-| **LingCraft_Setup_v3.5.18.exe** | ~332 MB | `e8bf2aee8ff3703593580a6eb1eec5bc74718c58e919b8876056ac2869cf297b` |
-| **LingCraft_绿色免安装版_v3.5.18.zip** | ~323 MB | `a5faa5fba6287c1f04c806137f899e5d5a6b03e41c27c79ff9123590c91457df` |
+| **LingCraft_Setup_v3.6.2.exe** | ~332 MB | `e8bf2aee8ff3703593580a6eb1eec5bc74718c58e919b8876056ac2869cf297b` |
+| **LingCraft_绿色免安装版_v3.6.2.zip** | ~323 MB | `54824c7e987cc08871d5b55f5d5f04f21bcf6781b0554fa02d7397846a6ffdbd` |
 
 *(可在 PowerShell 中通过 `Get-FileHash -Algorithm SHA256 <文件名>` 自行核验)*
 
