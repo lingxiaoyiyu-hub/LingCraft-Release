@@ -1,19 +1,24 @@
 {
-  "latest_version": "3.6.1",
-  "release_date": "2026-10-03",
+  "latest_version": "3.6.2",
+  "release_date": "2026-10-07",
   "force_update": false,
-  "title": "零创 v3.6.1 · 配图与创作体验优化",
+  "title": "零创 v3.6.2 · 微信公众号发布上线",
   "changelog": [
-    "优化了配图逻辑，关键词由AI按文章内容提炼，配图更贴合正文",
-    "优化了创作系统，二创文章条理更顺、表达更自然",
-    "更改了配图来源默认推荐百度搜图",
-    "更改了AI视频素材调用模式，只保留本地视频素材"
+    "修复了AI创作点击生成后界面长时间无响应的问题",
+    "修复了二创选「采集原图」时配上别篇图片或悄悄改用网络搜图",
+    "修复了切换模型厂商后自定义模型地址与密钥丢失的问题",
+    "修复了重启后API Key显示不完整、与原长度不符的问题",
+    "新增了微信公众号发布通道，可一键存草稿、支持批量存草稿",
+    "新增了公众号配图自动上传微信图床，随草稿一起带入",
+    "新增了公众号排版模板，目标平台选微信公众号时自动套版",
+    "新增了原创与二创的自定义提示词，可自定义写作要求",
+    "优化了正文分段长度，每段约140字，段落不再拥挤"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.1.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.2.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "77608737d7f24911c95b16c0702f0b42149f1bb3b6c13cbe9822ca32df050de3",
+  "sha256": "d516368e38d603302dbe2a6f3d6313972351a7c979d486ac826e6b69d26b35c0",
   "announcement": null,
-  "sha256_zip": "db823bedce7d6d9a9ce508a48f6878d79bda3bcfc3f40ad127eb21fb0b548e17",
-  "manifest_sig": "9xaD3UtkNlPCHy9JVRAEmI3CP+LgXQ5J7JkcyRVfGybq3ljK6WKaEjKuBgoZuUJIB3fv6SKnJignqUxx92j+Ag=="
+  "sha256_zip": "54824c7e987cc08871d5b55f5d5f04f21bcf6781b0554fa02d7397846a6ffdbd",
+  "manifest_sig": "Y1mHyxKinhuvZoMVo2STneedomAtEwUpwt0hTLDxSGx/duJo9K0fnABTgUO+pEJww58Dct8y02OD57dl0rFnBw=="
 }
