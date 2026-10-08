@@ -1,24 +1,26 @@
 {
-  "latest_version": "3.6.4",
+  "latest_version": "3.6.5",
   "release_date": "2026-10-08",
   "force_update": false,
-  "title": "零创 v3.6.4 · 抖音采集与 AI 配置多项修复",
+  "title": "零创 v3.6.5 · 文章截断与视频采集多项修复",
   "changelog": [
-    "修复了开发者福利通道点「测试连接」误报未填写完整配置的问题",
-    "修复了抖音采集把他人作品混进结果、分不清是谁的视频的问题",
-    "修复了抖音采集「每作者抓取篇数」不生效、一次下载全部作品的问题",
-    "修复了短链采集单个作品时标题与封面取不到的问题",
-    "修复了采集进度一直显示「已入库 0 部」、不随下载更新的问题",
-    "修复了已采集视频库「时长」一栏始终为空的问题",
-    "修复了部分作品的封面采集不到的问题",
-    "修复了点名单个作品时被「最低点赞数」误筛、并误报未找到作品的问题",
-    "优化了抖音采集日志：退回全页扫描与未识别作者时会明确提示"
+    "修复了生成文章被中途截断、标记「可能未写完」的问题",
+    "修复了采集单个作品时标题变成「作品_一串数字」的问题",
+    "修复了采集单个作品时封面图取不到的问题",
+    "修复了同一件作品被重复下载、库里出现两条相同记录的问题",
+    "修复了清空视频库会连带删掉该目录里你自己的视频的问题",
+    "修复了视频库时长显示错误（5 分钟的片子显示成 00:03）",
+    "修复了配图关键词偶发获取失败的问题",
+    "更改了短链采集失败的提示，会说明链接落到哪里、该怎么处理",
+    "更改了创作时不再自动联网搜索，避免无关旧闻混进稿子",
+    "优化了免费 AI 写作通道高峰时段的稳定性，拥堵时自动切换线路继续生成",
+    "优化了选题生成与配图关键词等环节的响应速度"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.4.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.5.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "b29b6300ad2999b056333bd2fe6f6b39937cd158a01f4ff391de996b731b6249",
+  "sha256": "a7483c540b0da597cae828a441166c7ac2b3cd3fd9fa9ac176e89624637f1dee",
   "announcement": null,
-  "sha256_zip": "2ca0372ac8b5dfe2927b27bc9e1a307e99eb84cbbebc2b4e648d41485d6cf657",
-  "manifest_sig": "0zBwq0x9eJFrkvtzYde8uVpFgjhGpcEW+Ag+L1Z4wYrLX8E1nQdAb5Y34nwBLaNfE90T1H3SjETaquTvbE9KAA=="
+  "sha256_zip": "1d0fa49cac484b4fd1cf5cd99de8e16e3de2cf684ace330cd7dfbd40c4d9ae0e",
+  "manifest_sig": "TRJl25dhXCTm9VN6mRPgQiUTD4wzuqROzXCxtERyl4WeRUcpmWkhk2KP06JhYnorNGd3Dur6DX446PLXF4/RBQ=="
 }
