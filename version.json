@@ -1,26 +1,16 @@
 {
-  "latest_version": "3.6.5",
-  "release_date": "2026-10-08",
+  "latest_version": "3.6.6",
+  "release_date": "2026-10-09",
   "force_update": false,
-  "title": "零创 v3.6.5 · 文章截断与视频采集多项修复",
+  "title": "零创 v3.6.6 · 紧急修复 DeepSeek 模型报错",
   "changelog": [
-    "修复了生成文章被中途截断、标记「可能未写完」的问题",
-    "修复了采集单个作品时标题变成「作品_一串数字」的问题",
-    "修复了采集单个作品时封面图取不到的问题",
-    "修复了同一件作品被重复下载、库里出现两条相同记录的问题",
-    "修复了清空视频库会连带删掉该目录里你自己的视频的问题",
-    "修复了视频库时长显示错误（5 分钟的片子显示成 00:03）",
-    "修复了配图关键词偶发获取失败的问题",
-    "更改了短链采集失败的提示，会说明链接落到哪里、该怎么处理",
-    "更改了创作时不再自动联网搜索，避免无关旧闻混进稿子",
-    "优化了免费 AI 写作通道高峰时段的稳定性，拥堵时自动切换线路继续生成",
-    "优化了选题生成与配图关键词等环节的响应速度"
+    "修复了 DeepSeek 模型报错导致无法生成文章的紧急问题"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.5.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.6.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "a7483c540b0da597cae828a441166c7ac2b3cd3fd9fa9ac176e89624637f1dee",
+  "sha256": "d6b77746bfc8b17b88f70e847285d8da697aee16f7c7bfbc3c0e726f547572ea",
   "announcement": null,
-  "sha256_zip": "1d0fa49cac484b4fd1cf5cd99de8e16e3de2cf684ace330cd7dfbd40c4d9ae0e",
-  "manifest_sig": "TRJl25dhXCTm9VN6mRPgQiUTD4wzuqROzXCxtERyl4WeRUcpmWkhk2KP06JhYnorNGd3Dur6DX446PLXF4/RBQ=="
+  "sha256_zip": "e489d91c95123697c0978c904397ea2df9f824e5dd6e09ee38d5fd518fc2d5b3",
+  "manifest_sig": "BW4ne6Jolug4aqs5wgM/+7+C3NeWhG6qcmQwnOkAVTHxHx4TGqH8VmU/EYj7XiCL2ZibXtnfixlO6dNIx4CcBw=="
 }
