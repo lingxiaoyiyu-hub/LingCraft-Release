@@ -1,16 +1,26 @@
 {
-  "latest_version": "3.6.6",
-  "release_date": "2026-10-09",
+  "latest_version": "3.6.7",
+  "release_date": "2026-10-10",
   "force_update": false,
-  "title": "零创 v3.6.6 · 紧急修复 DeepSeek 模型报错",
+  "title": "零创 v3.6.7 · 爆款二创流程架构与 AI 配置升级",
   "changelog": [
-    "修复了 DeepSeek 模型报错导致无法生成文章的紧急问题"
+    "修复了使用必须开启思考的模型时接口报 400 错误的问题",
+    "修复了小说章节生成时因模型参数异常导致报错的问题",
+    "修复了账号昵称包含特殊符号或单引号时操作按钮点击无响应的问题",
+    "修复了部分平台账号头像获取失败显示为空圈的问题",
+    "修复了视频采集部分分享短链与直链下载漏流的问题",
+    "新增了爆款二创「事实卡物理隔绝」机制，大幅降低文章查重与相似度",
+    "新增了 AI 配置「构思深度」全局调节开关（关 / 低 / 高）",
+    "新增了账号卡片一键独立打开已登录创作后台窗口功能",
+    "优化了文风润色与去 AI 腔提示词，行文更贴近自然人味口吻",
+    "优化了账号管理界面布局，卡片更紧凑且一行可容纳三张",
+    "优化了 AI 模型配置页面说明排版，无需内框滚动即可一览"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.6.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.7.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "d6b77746bfc8b17b88f70e847285d8da697aee16f7c7bfbc3c0e726f547572ea",
+  "sha256": "99d08fefdee60569a0d68f84756adc867c52df6420a89186c4aa1339b53560c6",
   "announcement": null,
-  "sha256_zip": "e489d91c95123697c0978c904397ea2df9f824e5dd6e09ee38d5fd518fc2d5b3",
-  "manifest_sig": "BW4ne6Jolug4aqs5wgM/+7+C3NeWhG6qcmQwnOkAVTHxHx4TGqH8VmU/EYj7XiCL2ZibXtnfixlO6dNIx4CcBw=="
+  "sha256_zip": "6587a33aee3c97405b67deaea5f22ef74ad52f0d50e382be59924f69a609a801",
+  "manifest_sig": "t65xMWdOWdhem9cqkEATZE34hoxGP8x4GB1O0ty86IJphFB0q8jfrJQtwB7cYvfPF26oJkWpt27BsFyf0t9PDw=="
 }
