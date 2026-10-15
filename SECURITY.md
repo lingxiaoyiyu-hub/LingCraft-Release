@@ -14,11 +14,11 @@
 **核验方法（以当前版本为例）：**
 在 Windows 系统的 PowerShell 窗口中运行以下命令：
 ```powershell
-Get-FileHash -Algorithm SHA256 "LingCraft_Setup_v3.5.17.exe"
+Get-FileHash -Algorithm SHA256 "LingCraft_Setup_v3.6.10.exe"
 ```
 对比计算结果是否与官方发布的哈希值一致：
-- 安装向导版官方指纹：`a00e3aaf641472e70b6e19e5f1e23ed95a6eb685ecdb45d47b03fa5f5a8c31e8`
-- 绿色免安装版官方指纹：`c5419457bac981d393458f3fecd72d21c066483c2de556e84eeadbd7f2c6e938`
+- 安装向导版官方指纹：`4a441041c3c12e4a8db44177aa4ed3d9cd6118345c1a2528165a524859381507`
+- 绿色免安装版官方指纹：`840e8861f46d5f352a6f39390acd35bc7e96929223212fe1271df5cc94563df6`
 若一致，代表该文件自官方出厂后未被修改过任何 1 个字节。
 
 ### 2. Ed25519 云端清单防篡改签名

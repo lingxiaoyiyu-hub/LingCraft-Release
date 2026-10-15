@@ -19,7 +19,7 @@ assignees: ''
 
 **运行环境信息 (Environment Info)**
 - 操作系统版本：Windows 10 / 11 64位
-- LingCraft 客户端版本：v3.5.16 或其他
+- LingCraft 客户端版本：v3.6.10 或其他
 - 模型类型（如涉及）：DeepSeek / 智谱 / 通义 / 内置等
 
 **截图或日志 (Screenshots or Logs)**

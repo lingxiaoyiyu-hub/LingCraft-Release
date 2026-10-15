@@ -53,7 +53,8 @@
 - **基于真实事实原创**：拒绝胡编乱造，基于最新联网素材与结构大纲生成高可读性爆款文章。
 - **原创度三重保障**：强化「增量案例支撑 + 叙事结构重组 + 独立观点输出」，显著降低平台搬运违规风险。
 - **端侧 1.5B 降痕模型**：支持在本地离线调用专属小模型对成稿进行二次句式打磨，清洗 AI 套路词，**不消耗任何联网模型 API 额度，保障私密安全**。
-- **多平台文风自适应**：预设今日头条、微信公众号深度长文、知乎客观理性体、小红书种草体等丰富模版。
+- **照你自己的稿子写**：内置风格模板——8 大长文赛道（人文历史 / 国际军事 / 影视娱乐 / 财经房产 / 科普知识 / 三农民俗 / 游戏体育 / 生活情感）与微头条通用样稿共 9 类，正文的讲法与语气照范文模仿；也可贴 1~3 篇自己的成稿「＋ 自定义模板」起名保存，或选「关闭」走通用文风规范。
+- **自定义提示词库**：写作要求可命名保存多条、随时启用或关闭，原创与二创共用同一个库。
 
 ### 3. 🎬 AI 编剧与短剧工坊 (Drama Studio)
 - **剧本三步闭环流转**：
@@ -83,6 +84,8 @@
   - 账号 Cookie 独立沙箱隔离，多账号并存不串号；
   - 自动化探测本地 Chrome / Edge 浏览器内核，免繁琐配置；
   - 支持单篇直发、一键批量存入草稿箱，并实时回显发布状态与文章链接；公众号通道支持一键存草稿，正文配图自动上传微信图床随稿带入。
+- **软件内定时发布**：排好时间由软件自动发稿，**今日头条与百度百家号均支持**；提供固定间隔 / 随机间隔 / 时段内随机 / 每日固定时刻四种节奏与实时预估，任务可逐篇取消、重启后按原节奏恢复。
+  - 注意：定时发送依赖本软件保持运行（关机、退出软件或休眠会中断发送），界面上有明确提示；追求「推完即可关机」的场景建议改用平台官方定时。
 
 ### 6. 📹 抖音视频采集
 - **软件内直连采集**：自带浏览器直连抖音，粘贴作者主页或单条作品链接即可批量采集，视频自动下载封装进「已采集视频库」。
@@ -100,8 +103,8 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 
 | 发行版本 | 适用场景 | 官方下载直链 |
 | :--- | :--- | :--- |
-| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.9.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
-| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.6.9.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.10.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.6.10.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
 
 > 📌 **系统要求**：Windows 10 / Windows 11 (64-bit)。**微信公众号的扫码绑定需要本机已安装 Microsoft Edge 或 Google Chrome**。首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可正常开启。
 
@@ -113,8 +116,8 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
 
 | 产物名称 | 文件大小 | SHA-256 校验和 |
 | :--- | :--- | :--- |
-| **LingCraft_Setup_v3.6.9.exe** | ~332.6 MB | `3dead755930c4bbc9b89c404ec026170081951fd2d29b66079fcfa44606f9619` |
-| **LingCraft_绿色免安装版_v3.6.9.zip** | ~323.7 MB | `e9948a40279d79612b7ab47352c2c1255b5827731fd8950849656e37ace11b3c` |
+| **LingCraft_Setup_v3.6.10.exe** | ~448.6 MB | `4a441041c3c12e4a8db44177aa4ed3d9cd6118345c1a2528165a524859381507` |
+| **LingCraft_绿色免安装版_v3.6.10.zip** | ~439.9 MB | `840e8861f46d5f352a6f39390acd35bc7e96929223212fe1271df5cc94563df6` |
 
 *(可在 PowerShell 中通过 `Get-FileHash -Algorithm SHA256 <文件名>` 自行核验)*
 
@@ -129,6 +132,8 @@ LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺
    - 勾选感兴趣的文章，点击「一键智能二创」；
 4. **体验短剧与小说**：
    - 顶部导航点击「AI 短剧」或「AI 小说」，输入您的故事构思或直接将二创长文送入剧本流，体验专业影视级工业化分镜！
+5. **遇到异常先自检**：
+   - 打开「AI 配置 → 环境自检」，一键体检**目录可写性、运行依赖、内置浏览器内核、外网可达性与代理设置**，生成的诊断报告可直接复制发给客服，不必再靠文字描述猜问题在哪。
 
 ## 📚 官方文档与服务导航
 
