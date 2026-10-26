@@ -1,162 +1,324 @@
 <div align="center">
 
+
+
 # 🎬 LingCraft · 全能创作工具箱
+
+
 
 **自媒体爆文采集 · AI 智能原创与降痕 · AI 短剧分镜工坊 · AI 长篇小说工坊 · 视频成片与矩阵发布**
 
+
+
 [![GitHub Release](https://img.shields.io/github/v/release/lingxiaoyiyu-hub/LingCraft-Release?color=0969da&label=Release&logo=github)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest)
+
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-brightgreen?logo=windows)](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases)
+
 [![ModelScope Mirror](https://img.shields.io/badge/国内高速镜像-阿里云魔搭社区-orange?logo=alibabacloud)](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/files)
+
 [![License](https://img.shields.io/badge/License-Commercial%20EULA-blue)](LICENSE)
+
+
 
 <br/>
 
+
+
 [📥 立即下载](#-下载与安装) &nbsp;•&nbsp; 
+
 [🚀 功能矩阵](#-核心功能矩阵) &nbsp;•&nbsp; 
+
 [📖 安装指南](INSTALL_GUIDE.md) &nbsp;•&nbsp; 
+
 [❓ 常见问题](FAQ.md) &nbsp;•&nbsp; 
+
 [🛡️ 安全指引](SECURITY.md) &nbsp;•&nbsp; 
+
 </div>
+
+
 
 <div align="center">
+
   <img src="assets/lingcraft_main.png" alt="LingCraft AI 创作与降痕主工作台" width="90%"/>
+
 </div>
 
+
+
 ---
+
+
 
 ## 💡 为什么选择 LingCraft？
 
+
+
 在自媒体图文、长篇网文与短剧爆发的当下，创作者常面临：
+
 - **灵感枯竭与素材难寻**：手动翻找爆款低效繁琐，配图水印严重影响观感；
+
 - **平台风控与搬运判罚**：简单洗稿容易被判定非原创或遭“AI 生成低质内容”降权；
+
 - **多工序割裂效率低下**：找选题、写正文、改剧本、做分镜、排版发布散落在不同软件，耗时费力。
+
+
 
 **LingCraft** 专为内容创业者、自媒体矩阵团队、编剧工作室与小说作者量身定制。它是一套运行在 Windows 本地的专业生产力工作台，将**爆款感知、AI 创作、端侧降痕、短剧影视化、长篇扩写与多账号分发**完整串接为一个无缝的自动化闭环。
 
+
+
 ---
+
+
 
 ## ⚡ 核心功能矩阵
 
+
+
 ### 1. 🔍 文章采集与智能去水印
+
 - **作者全量深度抓取**：一键批量采集指定头条作者的历史全量图文，精准提取标题、正文、发布时间、阅读量、点赞与评论数据。
+
 - **18 大垂直赛道热榜追踪**：覆盖科技、时事、情感、历史、财经、生活等主流分类，实时同步当日爆文库。
+
 - **图片智能去角标**：采集配图自动下载到本地，智能抹除原平台水印与角标，方便后续二次配图使用。
 
+
+
 <div align="center">
+
   <img src="assets/preview_scraper.png" alt="今日头条全站与作者文章采集配置" width="88%"/>
+
   <p><sub>▲ 全网 18 大垂直赛道采集与去水印运行配置</sub></p>
+
   <img src="assets/preview_viral_bank.png" alt="全网自媒体10万+实时爆文库" width="88%"/>
+
   <p><sub>▲ 全网自媒体 10万+ 实时爆文监控雷达</sub></p>
+
 </div>
+
+
 
 ### 2. ✍️ AI 深度原创与端侧降痕润色
+
 - **基于真实事实原创**：拒绝胡编乱造，基于最新联网素材与结构大纲生成高可读性爆款文章。
+
 - **原创度三重保障**：强化「增量案例支撑 + 叙事结构重组 + 独立观点输出」，显著降低平台搬运违规风险。
+
 - **端侧 1.5B 降痕模型**：支持在本地离线调用专属小模型对成稿进行二次句式打磨，清洗 AI 套路词，**不消耗任何联网模型 API 额度，保障私密安全**。
+
 - **照你自己的稿子写**：内置风格模板——8 大长文赛道（人文历史 / 国际军事 / 影视娱乐 / 财经房产 / 科普知识 / 三农民俗 / 游戏体育 / 生活情感）与微头条通用样稿共 9 类，正文的讲法与语气照范文模仿；也可贴 1~3 篇自己的成稿「＋ 自定义模板」起名保存，或选「关闭」走通用文风规范。
+
 - **自定义提示词库**：写作要求可命名保存多条、随时启用或关闭，原创与二创共用同一个库。
 
+
+
 ### 3. 🎬 AI 编剧与短剧工坊 (Drama Studio)
+
 - **剧本三步闭环流转**：
+
   1. **剧本重构**：将小说章节、新闻事件或短篇故事提炼为标准影视文学剧本（含第一人称/第三人称视点、剧情冲突钩子）；
+
   2. **视觉资产提炼**：自动拆解核心人物外貌特征、服装设计、关键道具与标志性场景 Prompt；
+
   3. **影视分镜生成**：专业 15 秒短视频分镜设计，精准标注景别（全/特/中）、运镜机位、机位节奏、光影氛围与音效台词。
+
 - **多格式专业导出**：支持导出为 **Excel 表格、CSV、Markdown、Word**，可直接导入即梦 (Jimeng)、可灵 (Kling)、Runway 等 AI 视频工具进行批量生图与生视频。
+
 - **历史分镜管理**：项目全生命周期留痕，随时回看与重新生成。
 
+
+
 <div align="center">
+
   <img src="assets/preview_drama.png" alt="AI 编剧与15秒影视级分镜工坊" width="88%"/>
+
   <p><sub>▲ 15 秒卡点短视频分镜设计与 Prompt 一键导出</sub></p>
+
 </div>
+
+
 
 ### 4. 📚 AI 长篇小说工坊 (Novel Studio)
+
 - **专业长篇工业化大纲推演**：支持世界观设定、流派设定、核心主线规划、分卷大纲演化。
+
 - **角色关系与动态档案**：实时记录人物性格、金手指能力、隐藏身份与阵营关系，保证长篇连载角色不崩塌。
+
 - **逐章批量扩写**：依托上下文自动记忆机制，批量推演并生成 2000~4000 字正文章节，支持一键「改编剧本」无缝流入短剧工坊。
 
+
+
 <div align="center">
+
   <img src="assets/preview_novel.png" alt="AI 小说创作工坊与连载章节编辑" width="88%"/>
+
   <p><sub>▲ 长篇小说大纲推演与连载正文批量扩写工作区</sub></p>
+
 </div>
 
+
+
 ### 5. 📮 多账号矩阵直发
+
 - **今日头条 / 百度百家号 / 微信公众号多账号矩阵**：
+
   - 账号 Cookie 独立沙箱隔离，多账号并存不串号；
+
   - 自动化探测本地 Chrome / Edge 浏览器内核，免繁琐配置；
+
   - 支持单篇直发、一键批量存入草稿箱，并实时回显发布状态与文章链接；公众号通道支持一键存草稿，正文配图自动上传微信图床随稿带入。
+
 - **软件内定时发布**：排好时间由软件自动发稿，**今日头条与百度百家号均支持**；提供固定间隔 / 随机间隔 / 时段内随机 / 每日固定时刻四种节奏与实时预估，任务可逐篇取消、重启后按原节奏恢复。
+
   - 注意：定时发送依赖本软件保持运行（关机、退出软件或休眠会中断发送），界面上有明确提示；追求「推完即可关机」的场景建议改用平台官方定时。
 
+
+
 ### 6. 📹 抖音视频采集
+
 - **软件内直连采集**：自带浏览器直连抖音，粘贴作者主页或单条作品链接即可批量采集，视频自动下载封装进「已采集视频库」。
+
 - **入库即可用**：已采集视频库支持分页浏览、按点赞量 / 时长 / 文件大小排序、批量导出与删除，拿到的就是可直接进剪辑的 MP4 原片。
 
+
+
 ### 7. ✂️ 视频二创 · 本地降痕出片
+
 - **本机重剪降痕**：裁头尾与变速、随机裁剪缩放、微旋转、透视微扰、水平镜像、片头卡与封面帧、色调与逐帧微扰、音频指纹扰乱等一整套手段，为二次分发做本地差异化。
+
 - **零联网零模型**：全程 ffmpeg 子进程在本机跑，不调用任何云端能力，处理速度取决于本机配置；产物落「已降痕」目录，**原片一律不覆盖**。
 
+
+
 ---
+
+
 
 ## 📥 下载与安装
 
+
+
 LingCraft 官方提供**双渠道下载**（保证国内高速直连与海外顺畅分发）：
 
+
+
 | 发行版本 | 适用场景 | 官方下载直链 |
+
 | :--- | :--- | :--- |
-| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.11.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
-| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.6.11.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+
+| **安装向导版 (`Setup.exe`)**<br/>*(推荐)* | 适合所有用户，一键安装并自动在桌面创建快捷方式；后续可在软件内直接**无感覆盖更新**，原有数据与配置完整保留。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.13.exe)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+
+| **绿色免安装版 (`.zip`)** | 适合追求便携或放置在移动硬盘、云盘中的用户，解压到任意目录直接运行 `LingCraft.exe` 即可启动。 | [⚡ 阿里云魔搭国内满速直链](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_%E7%BB%BF%E8%89%B2%E5%85%8D%E5%AE%89%E8%A3%85%E7%89%88_v3.6.13.zip)<br/>[🌐 GitHub Releases 下载](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest) |
+
+
 
 > 📌 **系统要求**：Windows 10 / Windows 11 (64-bit)。**微信公众号的扫码绑定需要本机已安装 Microsoft Edge 或 Google Chrome**。首次运行如遇 Windows SmartScreen 提示，点击「更多信息」→「仍要运行」即可正常开启。
 
+
+
 ---
+
+
 
 ## 🛡️ 发布产物与哈希校验
 
+
+
 为保障安装包在分发过程中未经任何篡改或供应链劫持，官方所有构建产物均提供公开 **SHA-256** 校验指纹：
 
+
+
 | 产物名称 | 文件大小 | SHA-256 校验和 |
+
 | :--- | :--- | :--- |
-| **LingCraft_Setup_v3.6.11.exe** | ~454.5 MB | `ae8a3b8af9be0035210405f323348029cc7384eeaa627bc0c17fb36a2321624b` |
-| **LingCraft_绿色免安装版_v3.6.11.zip** | ~446.9 MB | `02adcd0c77360c9fd826684043ac1fecdf3db27080bb027a8c60f2108ebbce45` |
+
+| **LingCraft_Setup_v3.6.13.exe** | ~464.5 MB | `2ba86e12aa8aa2165c258a3876b23f07a9126dd4316673fa4ab6e0123e704184` |
+
+| **LingCraft_绿色免安装版_v3.6.13.zip** | ~454.8 MB | `b00d310566ec1e7efaa8ee9e26fcf84ec3103c023479c2f1a027e76012c46dbd` |
+
+
 
 *(可在 PowerShell 中通过 `Get-FileHash -Algorithm SHA256 <文件名>` 自行核验)*
 
+
+
 ---
+
+
 
 ## 🚀 快速使用指引
 
+
+
 1. **启动软件**：双击桌面「LingCraft」图标，桌面客户端将自动唤起本地轻量控制台；
+
 2. **配置 AI 渠道**：在左侧「AI 配置」中填入您的模型 API Key（兼容 OpenAI / DeepSeek / 智谱清言 / 通义千问等主流大模型接口格式，亦支持本地免费模型）；
+
 3. **爆文采集与二创**：
+
    - 切换到「爆款采集」，输入头条作者链接或点击「获取实时热榜」；
+
    - 勾选感兴趣的文章，点击「一键智能二创」；
+
 4. **体验短剧与小说**：
+
    - 顶部导航点击「AI 短剧」或「AI 小说」，输入您的故事构思或直接将二创长文送入剧本流，体验专业影视级工业化分镜！
+
 5. **遇到异常先自检**：
+
    - 打开「AI 配置 → 环境自检」，一键体检**目录可写性、运行依赖、内置浏览器内核、外网可达性与代理设置**，生成的诊断报告可直接复制发给客服，不必再靠文字描述猜问题在哪。
+
+
 
 ## 📚 官方文档与服务导航
 
+
+
 | 文档指引 | 主要内容 |
+
 | :--- | :--- |
+
 | [📖 Windows 安装与防坑指南](INSTALL_GUIDE.md) | 系统要求、覆盖升级说明与 Windows SmartScreen 解决指引 |
+
 | [❓ 常见高频问答 (FAQ)](FAQ.md) | 会员激活、换机解绑、API Key 配置、数据保存与模型答疑 |
+
 | [🛡️ 安全策略与防伪指引](SECURITY.md) | 官方 SHA-256 哈希校验教程、Ed25519 数字签名机制与受信任渠道 |
+
 | [📝 官方版本更新日志](CHANGELOG.md) | 历代核心版本特性演进与更新详情 |
+
 | [⚖️ 商业最终用户许可协议](LICENSE) | 官方商业软件使用守则、免责声明与版权条款 |
+
 | [💬 反馈与需求征集](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/issues) | 提交 Bug 异常报告与功能改进构想 |
 
+
+
 ---
+
+
 
 ## 🔒 商业授权与用户须知
 
+
+
 - **商业授权**：本软件为商业专业生产力工具，采用云端原子核销与 **Ed25519** 数字凭据防篡改鉴权。请通过官方指定途径购买会员卡密或激活码。
+
 - **免责声明与合规提醒**：请用户在使用文章采集、AI 创作与矩阵发布功能时，严格遵守国家相关互联网信息安全法律法规与各大平台用户守则，严禁用于任何违法违规、侵权或虚假新闻的生成与传播。
+
+
 
 ---
 
+
+
 <div align="center">
+
   <sub>© 2026 LingCraft Team. All Rights Reserved.</sub>
+
 </div>
+
+
+
 
 
