@@ -1,28 +1,21 @@
 {
-  "latest_version": "3.6.13",
+  "latest_version": "3.6.14",
   "release_date": "2026-10-26",
   "force_update": false,
-  "title": "零创 v3.6.13 · 批量视频、水印自动识别与公告",
+  "title": "零创 v3.6.14 · 修复 AI 视频按钮与二创降级",
   "changelog": [
-    "新增了批量生成 AI 视频：勾选多篇串行润色出片，失败自动跳过不中断",
-    "新增了去水印自动识别：整批逐片找水印，找不到原样放行",
-    "新增了软件内公告栏：顶栏滚动提示，不发版也能推送运营通知",
-    "新增了跨分页全选：文章采集、AI 创作、视频库、爆款库各一个按钮",
-    "新增了批量发布待发布清单：可逐篇剔除，不删原稿",
-    "新增了 AI 素材自动拆分镜生图：不必先生成素材，一次出片",
-    "修复了润色点了不出文章：识别思考泄露并自动重试，字数按目标收敛",
-    "修复了批量去水印跨分辨率错位：水印框改为按画面比例套用",
-    "修复了配图与段落无关：按正文分组逐段检索配图",
-    "修复了百家号首页粉丝与累计收入取不到",
-    "修复了新建小说自带第一卷的演示章节",
-    "更改了批量发布弹窗尺寸与视频二创左栏高度",
-    "更改了构思深度默认档为「关」：短稿秒出，不再被思考拖慢"
+    "修复了 AI 视频「润色」与「生成」按钮点了没反应",
+    "修复了二创处理完不实时出现在成果库",
+    "修复了有显卡却用 CPU 编码且不说明原因",
+    "新增了显卡编码失败自动退回 CPU 重跑，不再整条失败",
+    "新增了二创启动预检：ffmpeg 不可用、目录不可写当场报错",
+    "新增了二创运行日志，失败可把日志发回定位"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.13.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.14.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "2ba86e12aa8aa2165c258a3876b23f07a9126dd4316673fa4ab6e0123e704184",
+  "sha256": "d5f4fb41e8ce9fb84d3e010c8f97083f19bfab5fa6c966af16511c4fa7ea0cf0",
   "announcement": null,
-  "sha256_zip": "b00d310566ec1e7efaa8ee9e26fcf84ec3103c023479c2f1a027e76012c46dbd",
-  "manifest_sig": "ZHy3faDOvPw5zMrX2CRTo+AWUwxDeuA1u0v1BnXu5rEQH88Zxx9iTHujKQxFI3jdbRxMowGqcdXNlkoMffNKCA=="
+  "sha256_zip": "4000a272be7822093607128cb92a48b24ff6fcea3ba6c5f656cc9d68ba207250",
+  "manifest_sig": "XBPPNxbFHI2TgHpfGhtjFIO2uoTR/F+snMaA3wpUSCDEwP++M2xH3tuE9iwVKI8lyWq/lSRWCycIyuJCoXCCBA=="
 }
