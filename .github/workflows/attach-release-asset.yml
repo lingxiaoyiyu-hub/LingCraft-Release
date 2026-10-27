@@ -1,0 +1,37 @@
+name: Attach release asset
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag
+        required: true
+        default: v3.6.15
+      url:
+        description: Direct download URL
+        required: true
+      name:
+        description: Asset file name
+        required: true
+      sha256:
+        description: Expected SHA-256
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download from ModelScope
+        run: |
+          curl -L --fail --retry 3 --retry-delay 5 -o "${{ inputs.name }}" "${{ inputs.url }}"
+      - name: Verify SHA-256
+        run: |
+          echo "${{ inputs.sha256 }}  ${{ inputs.name }}" | sha256sum -c -
+      - name: Upload to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "${{ inputs.tag }}" "${{ inputs.name }}" --clobber -R "${{ github.repository }}"
