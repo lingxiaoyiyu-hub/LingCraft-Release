@@ -1,47 +1,52 @@
-# 🛡️ LingCraft · 安全策略与防伪核验指引 (Security Policy)
+# 零创（LingCraft）· 安全策略与防伪核验
 
-用户的数据资产安全、创作成果隐私与软件供应链完整性是 LingCraft 的最高优先级。
+用户的数据资产、创作成果与软件供应链完整性是零创的最高优先级。
 
 ---
 
-## 🔒 官方防伪校验机制
+## 官方防伪校验
 
-为了防止恶意第三方在网络中劫持或向安装包投毒，官方构建产物提供 **双重密码学核验防线**：
+官方构建产物提供双重核验：
 
-### 1. SHA-256 哈希值核对
-每一个官方发布的二进制可执行文件（`.exe` 与 `.zip`）都在发布的 Release 说明与 `version.json` 中公开其实测 SHA-256 哈希值。
+### 1. SHA-256 哈希核对
 
-**核验方法（以当前版本为例）：**
-在 Windows 系统的 PowerShell 窗口中运行以下命令：
+每个版本的安装包都在 Release 说明与云端 `version.json` 中公开实测 SHA-256。
+
+以当前版本为例，在 PowerShell 中执行：
+
 ```powershell
-Get-FileHash -Algorithm SHA256 "LingCraft_Setup_v3.6.10.exe"
+Get-FileHash -Algorithm SHA256 "LingCraft_Setup_v3.6.14.exe"
 ```
-对比计算结果是否与官方发布的哈希值一致：
-- 安装向导版官方指纹：`4a441041c3c12e4a8db44177aa4ed3d9cd6118345c1a2528165a524859381507`
-- 绿色免安装版官方指纹：`840e8861f46d5f352a6f39390acd35bc7e96929223212fe1271df5cc94563df6`
-若一致，代表该文件自官方出厂后未被修改过任何 1 个字节。
 
-### 2. Ed25519 云端清单防篡改签名
-客户端在自动检测升级时，必须校验云端版本清单的 `manifest_sig`（基于工业级高强度 **Ed25519 椭圆曲线数字签名**）。即使中间人劫持了 DNS 或修改了清单内容，客户端验签失败会立即拒绝自动下载并阻断安装，杜绝供应链中间人投毒风险。
+与官方公布值比对：
 
----
+- `LingCraft_Setup_v3.6.14.exe`
+- SHA-256：`d5f4fb41e8ce9fb84d3e010c8f97083f19bfab5fa6c966af16511c4fa7ea0cf0`
 
-## 🌐 官方唯一受信任的分发源
+一致即代表文件自发布后未被修改。历史版本哈希见对应 Release 说明。
 
-请用户仅从以下两个官方权威渠道下载 LingCraft，切勿轻信未经授权的网盘散装链接：
+### 2. Ed25519 云端清单签名
 
-1. **阿里云魔搭社区 (ModelScope 官方发布页)**：
-   <https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/files>
-2. **GitHub Releases 官方发行页面**：
-   <https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases>
+客户端检查更新时会校验云端 `version.json` 的 `manifest_sig`（Ed25519 签名）。即使 DNS 被劫持或清单被篡改，验签失败也会立即拒绝自动下载与安装，只保留官方发布页的手工下载通道。
 
 ---
 
-## 🛡️ 漏洞与安全反馈通道
+## 官方下载渠道
 
-如果您在使用过程中发现了任何安全缺陷、可疑异常或希望就技术安全进行交流，请通过以下方式联系：
+请只从以下渠道下载：
 
-- 提交 GitHub Issue：[Security Advisory / Report Issue](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/issues)
-- 官方联系邮箱：`dev@lingcraft.local`
+1. 魔搭 ModelScope 官方发布页：<https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/files>
+2. GitHub Releases：<https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases>
 
-我们将在收到反馈后 24 小时内进行评估、分析与收口加固。
+网盘转载、破解版与二次打包版本可能被植入木马或窃取账号，请勿使用。
+
+---
+
+## 安全反馈
+
+发现安全缺陷、可疑异常或下载到异常文件，请通过：
+
+- GitHub Issue：<https://github.com/lingxiaoyiyu-hub/LingCraft-Release/issues>
+- 客服 QQ：574719738
+
+我们会在收到反馈后尽快评估与处理。
