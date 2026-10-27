@@ -76,6 +76,14 @@
 - **AI 小说工坊**：世界观、角色档案、分卷大纲、逐章扩写，支持 txt / md / docx 导入整部作品。
 - **AI 编剧工坊**：剧本重构 → 视觉资产 → 影视分镜三步，分镜表可导出 Excel / CSV / Markdown / Word。
 
+![AI 小说工坊](assets/preview_novel.png)
+
+![AI 编剧工坊](assets/preview_drama.png)
+
+![AI 视频](assets/preview_ai_video.png)
+
+![多账号矩阵](assets/preview_accounts.png)
+
 ![文章采集](assets/preview_scraper.png)
 
 ![爆文雷达](assets/preview_viral_bank.png)
