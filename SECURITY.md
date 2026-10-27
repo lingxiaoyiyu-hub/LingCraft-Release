@@ -15,13 +15,13 @@
 以当前版本为例，在 PowerShell 中执行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 "LingCraft_Setup_v3.6.14.exe"
+Get-FileHash -Algorithm SHA256 "LingCraft_Setup_v3.6.15.exe"
 ```
 
 与官方公布值比对：
 
-- `LingCraft_Setup_v3.6.14.exe`
-- SHA-256：`d5f4fb41e8ce9fb84d3e010c8f97083f19bfab5fa6c966af16511c4fa7ea0cf0`
+- `LingCraft_Setup_v3.6.15.exe`
+- SHA-256：`9d75c24804d5b00b6f061e963c556782664c15e320a0a1c0d838d9504c4e5088`
 
 一致即代表文件自发布后未被修改。历史版本哈希见对应 Release 说明。
 
