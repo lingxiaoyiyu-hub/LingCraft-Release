@@ -1,21 +1,24 @@
 {
-  "latest_version": "3.6.14",
-  "release_date": "2026-10-26",
+  "latest_version": "3.6.15",
+  "release_date": "2026-10-27",
   "force_update": false,
-  "title": "零创 v3.6.14 · 修复 AI 视频按钮与二创降级",
+  "title": "零创 v3.6.15 · 长故事创作与发布稳定性",
   "changelog": [
-    "修复了 AI 视频「润色」与「生成」按钮点了没反应",
-    "修复了二创处理完不实时出现在成果库",
-    "修复了有显卡却用 CPU 编码且不说明原因",
-    "新增了显卡编码失败自动退回 CPU 重跑，不再整条失败",
-    "新增了二创启动预检：ffmpeg 不可用、目录不可写当场报错",
-    "新增了二创运行日志，失败可把日志发回定位"
+    "新增了长故事创作：6000 字以上自动分段规划并合并",
+    "新增了 AI 配图出图并发三档，连续限流自动降速",
+    "新增了爆款选题池持久化，支持清空与单条删除",
+    "修复了头条正文注入错编辑器、直发假成功与批量丢图",
+    "修复了百家号发布点不动、配图上传失败与直发报错",
+    "修复了微头条采集不到配图",
+    "修复了登录失效或当日上限后仍反复重试，现暂停整号队列",
+    "修复了批量发文勾选残留导致按钮数量虚高",
+    "优化了视频分镜并发出图与 ffmpeg 合成稳定性"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.14.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.15.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "d5f4fb41e8ce9fb84d3e010c8f97083f19bfab5fa6c966af16511c4fa7ea0cf0",
+  "sha256": "9d75c24804d5b00b6f061e963c556782664c15e320a0a1c0d838d9504c4e5088",
   "announcement": null,
-  "sha256_zip": "4000a272be7822093607128cb92a48b24ff6fcea3ba6c5f656cc9d68ba207250",
-  "manifest_sig": "XBPPNxbFHI2TgHpfGhtjFIO2uoTR/F+snMaA3wpUSCDEwP++M2xH3tuE9iwVKI8lyWq/lSRWCycIyuJCoXCCBA=="
+  "sha256_zip": "",
+  "manifest_sig": "zGcAmZWG4iQ2ldtdZYZRDFVFMXp+SovJO61EUlJip8gYev+BK+QL6jMWARUJUXAeeXH1VYcHWwT/uoggb+bxCA=="
 }
