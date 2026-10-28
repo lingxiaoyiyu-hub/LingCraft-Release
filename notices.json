@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-29 03:36:59",
+  "updated_at": "2026-10-29 03:38:23",
   "notices": [
     {
       "id": "20261029-033659",
@@ -14,20 +14,7 @@
       "max_version": "",
       "pinned": true,
       "once": false
-    },
-    {
-      "id": "20261025-231843",
-      "level": "info",
-      "title": "软件内公告已上线",
-      "body": "以后维护通知、活动消息都发在这里，不用等软件更新；有新消息会在顶栏滚动提醒。",
-      "link": "",
-      "start_at": "2026-10-25 23:18",
-      "end_at": "2026-11-01 23:18",
-      "min_version": "",
-      "max_version": "",
-      "pinned": false,
-      "once": false
     }
   ],
-  "sig": "yYLZNLPyD6eEC9cTaBmkgvAMd0b5LgqgxlVDHZqllb9grSlpz/P1zz4o44eFhu2S8bF1aoSYNTk5r65Tx9PwDg=="
+  "sig": "Ks9iafmlI8jX3Ck+8O6WoE67xjtYle2CCfWBN1KqnFkP8jLfb4ypMc2bYWeX/V2koVaoTiybHOeVmngOgGqcDA=="
 }
