@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-29 04:04:52",
+  "updated_at": "2026-10-29 04:27:10",
   "notices": [
+    {
+      "id": "20261029-042710",
+      "level": "critical",
+      "title": "严正声明：盗版破解与倒卖已侵害我方合法权益",
+      "body": "近期发现有人非法破解本软件，并在闲鱼等平台以「永久破解版」名义公开倒卖。\n\n上述行为已侵害我方合法权益：未经授权破解、复制、销售我方软件，涉嫌侵犯著作权；同时盗用我方自费购买的 AI 服务额度，造成实际经济损失。相关被盗用的服务通道，我方已停用。\n\n我方已固定服务器访问日志（来源 IP、时间、调用量）、卡密核销记录、交易记录及破解工具样本等证据。对上述侵权行为，我方保留依法追究法律责任的权利。\n\n已购买盗版的用户，可凭平台订单或购买记录联系开发者 QQ 574719738，核验后兑换正版卡密；继续使用或转售的，我方将一并追责。",
+      "link": "",
+      "start_at": "2026-10-29 04:27",
+      "end_at": "2026-11-28 04:27",
+      "min_version": "",
+      "max_version": "",
+      "pinned": true,
+      "once": false
+    },
     {
       "id": "20261029-040443",
       "level": "critical",
@@ -16,5 +29,5 @@
       "once": false
     }
   ],
-  "sig": "NNthWbAYcfIjY1FyaHUk3yllKu/wzOh+/9whbqCovKJLmN0VksL3ko74EVJ8elNOQnpWAFAIukC7+QG0oPU0Aw=="
+  "sig": "5xjSZ/6z5OoFKOaHBrzmQGyd/B9XA4UOseOH8SLzX7lkKOpgaOPWIcMUzdppDdirMQam8vLf9cCBzO902LAbDA=="
 }
