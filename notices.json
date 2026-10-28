@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-29 03:38:23",
+  "updated_at": "2026-10-29 03:47:48",
   "notices": [
+    {
+      "id": "20261029-034748",
+      "level": "critical",
+      "title": "严正声明：使用盗版即盗用我们的付费额度，证据已固定",
+      "body": "近期发现有人破解本软件并在闲鱼公开倒卖，宣称「永久破解版」。购买者明知是盗版仍然购买使用。在此严正声明：\n\n一、破解版并不免费。它每次运行都在消耗我们自费购买的 AI 服务额度。使用盗版，就是盗用我们花钱买来的服务资源，属于盗窃行为；卖家与使用者都要为此承担责任。\n\n二、证据已经固定。服务器的访问日志（来源 IP、时间、调用次数）、卡密核销记录与交易记录均已留存，我们将据此依法追究相关人员的法律责任。\n\n三、风险由使用者自负。盗版无法更新、缺少全部修复，还可能被植入木马，导致你的头条、百家号登录状态与素材被窃取。\n\n四、已购买盗版的处理：凭闲鱼订单或购买记录联系开发者 QQ 574719738，核验后可兑换正版卡密；继续使用或转售的，照旧追究责任。\n\n请立即停用并删除盗版，只从官方发布页下载正版、只通过官方渠道购买卡密。",
+      "link": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases",
+      "start_at": "2026-10-29 03:47",
+      "end_at": "2026-11-28 03:47",
+      "min_version": "",
+      "max_version": "",
+      "pinned": true,
+      "once": false
+    },
     {
       "id": "20261029-033659",
       "level": "critical",
@@ -16,5 +29,5 @@
       "once": false
     }
   ],
-  "sig": "Ks9iafmlI8jX3Ck+8O6WoE67xjtYle2CCfWBN1KqnFkP8jLfb4ypMc2bYWeX/V2koVaoTiybHOeVmngOgGqcDA=="
+  "sig": "T4gm7s55JIv8j9SnoFiqeO0d0At5Kr38L5GHMAkyzzUVIAD88GmgkEdGRitFE0IXGqjG/99c22zD9D6WDQ/xCA=="
 }
