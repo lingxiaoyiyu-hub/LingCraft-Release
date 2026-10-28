@@ -14,17 +14,17 @@
 
 ---
 
-## 立即下载（当前版本 v3.6.15）
+## 立即下载（当前版本 v3.6.16）
 
 | 渠道 | 下载地址 |
 | :--- | :--- |
-| **魔搭 ModelScope（国内推荐）** | <https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.15.exe> |
+| **魔搭 ModelScope（国内推荐）** | <https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.16.exe> |
 | **GitHub Releases（海外 / 备用）** | <https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest> |
 
-- 文件名：`LingCraft_Setup_v3.6.15.exe`
+- 文件名：`LingCraft_Setup_v3.6.16.exe`
 - 大小：463.8 MB
 - 平台：Windows 10 / 11 64 位
-- SHA-256：`9d75c24804d5b00b6f061e963c556782664c15e320a0a1c0d838d9504c4e5088`
+- SHA-256：`d2772cbc5f646984efbd9e81c2e37435732df2a33ffd6bfe569c437177fdadaf`
 
 > 自 2026-10-27 起只提供安装版，**绿色免安装版已停止产出**；安装向导会自动探测旧目录并覆盖升级，作品、账号登录状态与配置全部保留，**不需要先卸载**。版本号与哈希以本页、魔搭发布页和云端 `version.json` 为准。
 
@@ -32,7 +32,7 @@
 
 ## 三步上手
 
-1. 下载上面的 `LingCraft_Setup_v3.6.15.exe` 并双击安装。
+1. 下载上面的 `LingCraft_Setup_v3.6.16.exe` 并双击安装。
 2. 打开软件，输入授权卡密激活（获取卡密请联系作者，客服 QQ：574719738）。
 3. 在「AI 配置」里选择内置免密钥通道，或填入自己的 DeepSeek / 豆包 / 智谱 / OpenAI 兼容接口 Key，点「测试连接」即可开始。
 
@@ -96,6 +96,7 @@
 
 | 版本 | 日期 | 主要变化 |
 | :--- | :--- | :--- |
+| v3.6.16 | 2026-10-29 | 首次启动法律声明确认（同意一次后不再弹）、声明增补内容责任条款；界面用词统一为视频处理/爆款改写/画面修复；声明弹窗双栏加宽、按钮钉底 |
 | v3.6.15 | 2026-10-27 | 长故事创作、AI 配图并发出图、爆款选题池持久化；头条/百家号发布与登录失效处理修复 |
 | v3.6.14 | 2026-10-26 | 修复 AI 视频按钮无反应；二创结果实时落盘；显卡编码失败写明原因并回退 CPU；二创新增诊断日志 |
 | v3.6.13 | 2026-10-26 | 批量生成 AI 视频、去水印自动识别、软件内公告栏、跨分页全选；修复润色不出文章与配图段落错位 |
