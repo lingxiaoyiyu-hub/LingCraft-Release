@@ -1,24 +1,23 @@
 {
-  "latest_version": "3.6.15",
-  "release_date": "2026-10-27",
+  "latest_version": "3.6.16",
+  "release_date": "2026-10-29",
   "force_update": false,
-  "title": "零创 v3.6.15 · 长故事创作与发布稳定性",
+  "title": "零创 v3.6.16 · 首次启动法律声明确认",
   "changelog": [
-    "新增了长故事创作：6000 字以上自动分段规划并合并",
-    "新增了 AI 配图出图并发三档，连续限流自动降速",
-    "新增了爆款选题池持久化，支持清空与单条删除",
-    "修复了头条正文注入错编辑器、直发假成功与批量丢图",
-    "修复了百家号发布点不动、配图上传失败与直发报错",
-    "修复了微头条采集不到配图",
-    "修复了登录失效或当日上限后仍反复重试，现暂停整号队列",
-    "修复了批量发文勾选残留导致按钮数量虚高",
-    "优化了视频分镜并发出图与 ffmpeg 合成稳定性"
+    "新增了首次启动法律声明确认，同意后不再弹出",
+    "新增了软件定位与内容责任条款，写明授权前提",
+    "更改了「视频成片」为「视频处理」，入口按钮改为「处理」",
+    "更改了「同款结构」创作子模式为「爆款改写」",
+    "更改了界面用词，功能表述统一为下载、改写与处理",
+    "更改了默认主题为黑金，窗口标题只保留版本号",
+    "优化了法律声明弹窗，加宽双栏后整篇不再滚动",
+    "优化了顶带公告栏与右侧按钮高度，视觉统一"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.15.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.16.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "9d75c24804d5b00b6f061e963c556782664c15e320a0a1c0d838d9504c4e5088",
+  "sha256": "d2772cbc5f646984efbd9e81c2e37435732df2a33ffd6bfe569c437177fdadaf",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "zGcAmZWG4iQ2ldtdZYZRDFVFMXp+SovJO61EUlJip8gYev+BK+QL6jMWARUJUXAeeXH1VYcHWwT/uoggb+bxCA=="
+  "manifest_sig": "IJ+RyQOx4jlZ2pUxaInupZiRh9YL3hWioGt/lx1k3zkrGg2dkpj0QY+b22C2bNpUIYNR8NiGelqb3ACe+Kx9CQ=="
 }
