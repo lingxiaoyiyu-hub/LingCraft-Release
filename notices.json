@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-29 03:47:57",
+  "updated_at": "2026-10-29 04:04:43",
   "notices": [
+    {
+      "id": "20261029-040443",
+      "level": "critical",
+      "title": "严正声明：使用盗版即盗用我们的付费额度",
+      "body": "破解版宣称「永久免费」，实际每次运行都在消耗我们自费购买的 AI 额度。使用盗版就是盗用我们的服务资源，属盗窃行为。服务器访问记录（IP、时间、调用量）与交易记录已固定，我们将依法追责。\n\n已购盗版者凭闲鱼订单联系开发者 QQ 574719738，核验后可兑换正版卡密；继续使用或转售的，照旧追究。",
+      "link": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases",
+      "start_at": "2026-10-29 04:04",
+      "end_at": "2026-11-28 04:04",
+      "min_version": "",
+      "max_version": "",
+      "pinned": true,
+      "once": false
+    },
     {
       "id": "20261029-034748",
       "level": "critical",
@@ -16,5 +29,5 @@
       "once": false
     }
   ],
-  "sig": "q6cU9MrQgEkOzcSTlG7LsxNnS7IMJJRFS03mdIDLHtmQsqOA5WQQqltMOcQIG7nxPsvrrO7yACSLdwEOi4SOAw=="
+  "sig": "G4rRykyve2OHj2fQcgLKD4DlUetV16gpH/oOBcaDVy6ZTOFFTWD6rP3QrfIbNudzYIsQWZCzZcdEEJ9UhfDGDQ=="
 }
