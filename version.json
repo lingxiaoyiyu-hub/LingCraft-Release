@@ -1,28 +1,23 @@
 {
-  "latest_version": "3.6.16",
+  "latest_version": "4.0.0",
   "release_date": "2026-10-29",
   "force_update": false,
-  "title": "零创 v3.6.16 · 发布稳定性修复与一张图成片",
+  "title": "零创 v4.0.0 · 平台专属模型 LingCraft v4 Plus 上线",
   "changelog": [
-    "新增了首次启动法律声明确认，同意后不再弹出",
-    "新增了 AI 视频「一张图 · 纯图文成片」，可自定配图张数",
-    "新增了批量发布的软件内进度卡片，实时可见",
-    "修复了批量多账号发布全部落到默认账号",
-    "修复了百家号、公众号批量发成功却被记成失败",
-    "修复了头条撞当日发文上限后仍逐篇空转，现立即暂停",
-    "修复了头条与百家号登录失效后仍逐篇报错，现整队收手",
-    "修复了自定义口吻删不掉",
-    "修复了小说工作台底部约 57px 留白",
-    "修复了必过朱雀成果区长文把整页拉长",
-    "更改了 AI 生成报错统一显示原因并提示换模型",
-    "更改了深色主题为黑金，下线经典素雅白并自动迁移",
-    "更改了标题生成默认数量为 1 条"
+    "新增了「LingCraft v4 Plus」平台专属模型，免密钥开箱即用",
+    "新增了 AI 视频批量生成进度面板，可看进度并随时停止",
+    "修复了「一张图 · 纯图文成片」点生成必报错的问题",
+    "修复了 API Key 失效时提示看不懂，现直说原因并给两条恢复路径",
+    "修复了定时发布时标题被写成文件名的故障",
+    "修复了 AI 视频失败提示与真实原因不符、进度显示英文的问题",
+    "更改了榜单与爆文：需激活会员后查看，未激活会提示去激活",
+    "更改了 Agnes 通道：不再内置公共 Key，请官网免费申请后填入"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v3.6.16.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.0.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "d2772cbc5f646984efbd9e81c2e37435732df2a33ffd6bfe569c437177fdadaf",
+  "sha256": "da58da9a713d1c8d0b77fbe53516951b8282c9db76a67b3f5ca032b2448a117f",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "IJ+RyQOx4jlZ2pUxaInupZiRh9YL3hWioGt/lx1k3zkrGg2dkpj0QY+b22C2bNpUIYNR8NiGelqb3ACe+Kx9CQ=="
+  "manifest_sig": "tbtgBcVL2Rqy/vtEAVtOfU3qITqB+zOe5/d4BkTtEnosy8kHtlvpW0adHnOj424KRkTlFr/3KzBt955rQEzCAQ=="
 }
