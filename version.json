@@ -1,23 +1,22 @@
 {
-  "latest_version": "4.0.0",
-  "release_date": "2026-10-29",
+  "latest_version": "4.0.1",
+  "release_date": "2026-10-31",
   "force_update": false,
-  "title": "零创 v4.0.0 · 平台专属模型 LingCraft v4 Plus 上线",
+  "title": "零创 v4.0.1 · 批量创作实时进度与七项修复",
   "changelog": [
-    "新增了「LingCraft v4 Plus」平台专属模型，免密钥开箱即用",
-    "新增了 AI 视频批量生成进度面板，可看进度并随时停止",
-    "修复了「一张图 · 纯图文成片」点生成必报错的问题",
-    "修复了 API Key 失效时提示看不懂，现直说原因并给两条恢复路径",
-    "修复了定时发布时标题被写成文件名的故障",
-    "修复了 AI 视频失败提示与真实原因不符、进度显示英文的问题",
-    "更改了榜单与爆文：需激活会员后查看，未激活会提示去激活",
-    "更改了 Agnes 通道：不再内置公共 Key，请官网免费申请后填入"
+    "新增了 批量创作实时进度：能看到总进度、每篇状态和正在生成的正文",
+    "修复了 批量发布偶尔显示成功 0 篇、实际什么都没发出去的问题",
+    "修复了 批量发布偶尔把豆包当成浏览器、导致整批发布失败的问题",
+    "修复了 今日热榜和全网爆文偶尔刷不出来、只提示服务器错误的问题",
+    "修复了 切换主题后重开软件又回到默认黑金主题的问题",
+    "修复了 选「1 条标题」时仍然生成多条候选标题的问题",
+    "修复了 停止视频任务时报服务器错误、界面连接中断的问题"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.0.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.1.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "da58da9a713d1c8d0b77fbe53516951b8282c9db76a67b3f5ca032b2448a117f",
+  "sha256": "105c7c3729cda6577a4f943b28e39b9ab66df63e9464c837d876a00d46840ca4",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "tbtgBcVL2Rqy/vtEAVtOfU3qITqB+zOe5/d4BkTtEnosy8kHtlvpW0adHnOj424KRkTlFr/3KzBt955rQEzCAQ=="
+  "manifest_sig": "Yma/HcipDc1MWvgwFbaQ/Tm3lPulpnnfXF1QAhVGiPBHacj84TKQYSljKU/T9tvhwxf6/Zczi+eo0emF9H8pDA=="
 }
