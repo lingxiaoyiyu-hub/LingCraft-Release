@@ -1,6 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-03 18:48:53",
-  "notices": [],
-  "sig": "rgMOIKUtXuRFZL6ZUoPsy2fjteH7oedXVkE79Tm8yk8j2tlFwlYi/zrrtG5judL7rrOIf2T7yag1OkzmST06Ag=="
+  "updated_at": "2026-11-03 18:49:12",
+  "notices": [
+    {
+      "id": "20261103-184912",
+      "level": "warn",
+      "title": "【限时回馈】终身永久卡首发，11月15日恢复原价",
+      "body": "11月15日 24:00 起各档会员恢复原价。\n\n在此之前限时放出【终身永久卡】名额：\n- 特惠价 498 元，一次买断，后续所有大版本更新与模型维护全包；\n- 老用户可凭在期套餐（月卡/季卡/年卡）按差价折抵升级。\n\n名额有限，先到先得。",
+      "link": "",
+      "start_at": "2026-11-03 18:49",
+      "end_at": "2026-11-15 18:49",
+      "min_version": "",
+      "max_version": "",
+      "pinned": true,
+      "once": false
+    }
+  ],
+  "sig": "hBxf0GMwDhqeNuAPLm9ETdVOZyjmaJXHzM2XG9Lm3+695Db58J1DkzpwhC9Oco5hU1GrQkQcyoFaVvKg8k/7Bw=="
 }
