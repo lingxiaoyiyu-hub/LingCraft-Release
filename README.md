@@ -14,17 +14,17 @@
 
 ---
 
-## 立即下载（当前版本 v4.0.2）
+## 立即下载（当前版本 v4.0.3）
 
 | 渠道 | 下载地址 |
 | :--- | :--- |
-| **魔搭 ModelScope（国内推荐）** | <https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.2.exe> |
+| **魔搭 ModelScope（国内推荐）** | <https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.3.exe> |
 | **GitHub Releases（海外 / 备用）** | <https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest> |
 
-- 文件名：`LingCraft_Setup_v4.0.2.exe`
+- 文件名：`LingCraft_Setup_v4.0.3.exe`
 - 大小：493.4 MB
 - 平台：Windows 10 / 11 64 位
-- SHA-256：`4b4978162cf0f3d907c4efd2a3e10f21eb9ef9bd4e69e01c2ad6bb0e2fc3ce49`
+- SHA-256：`90172ccab721775da346ee68e75f6497b4e93d7f6f6768ca5a1a1b61c192dfd7`
 
 > 自 2026-10-27 起只提供安装版，**绿色免安装版已停止产出**；安装向导会自动探测旧目录并覆盖升级，作品、账号登录状态与配置全部保留，**不需要先卸载**。版本号与哈希以本页、魔搭发布页和云端 `version.json` 为准。
 
@@ -32,7 +32,7 @@
 
 ## 三步上手
 
-1. 下载上面的 `LingCraft_Setup_v4.0.2.exe` 并双击安装。
+1. 下载上面的 `LingCraft_Setup_v4.0.3.exe` 并双击安装。
 2. 打开软件，输入授权卡密激活（获取卡密请联系作者，客服 QQ：574719738）。
 3. 在「AI 配置」里选择内置免密钥通道，或填入自己的 DeepSeek / 豆包 / 智谱 / OpenAI 兼容接口 Key，点「测试连接」即可开始。
 
@@ -96,6 +96,7 @@
 
 | 版本 | 日期 | 主要变化 |
 | :--- | :--- | :--- |
+| v4.0.3 | 2026-11-03 | 修复原创写作「思考耗尽」空稿（自动重写）；修复视频处理自定义输出目录不生效、结果多时参数区被挤；修复 Word 导出遇 WPS 占用提示不清、无章节导出空白文档；授权与模型服务升级 |
 | v4.0.2 | 2026-11-01 | 账号列表分页（每页 20，账号多时不再一屏铺满）；批量导入账号提速并实时显示进度；修复「一张图成片」选好图片却提示无法读取；修复云端创作模板偶发提示「创作服务暂时不可用」；修复启动时误报核心组件被篡改 |
 | v4.0.1 | 2026-10-31 | 批量创作新增实时进度面板；修复批量发布「成功 0 篇、失败 0 篇」与豆包误判；热榜/爆文刷不出来时明确原因；主题持久化；标题条数按设置收敛 |
 | v4.0.0 | 2026-10-29 | 平台专属模型 LingCraft v4 Plus（免密钥）；修复「一张图 · 纯图文成片」必报错；AI 视频批量生成新增进度面板与停止按钮；Key 失效提示直说原因并给恢复路径；定时发布标题错成文件名 |
