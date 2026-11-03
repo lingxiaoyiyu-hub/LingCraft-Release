@@ -1,23 +1,21 @@
 {
-  "latest_version": "4.0.2",
-  "release_date": "2026-11-01",
+  "latest_version": "4.0.3",
+  "release_date": "2026-11-03",
   "force_update": false,
-  "title": "零创 v4.0.2 · 发布链路修复与账号管理提速",
+  "title": "零创 v4.0.3 · 修复与服务升级",
   "changelog": [
-    "新增了 账号列表分页，每页 20 个，账号多时不再一屏铺满",
-    "修复了 爆款选题再次生成时提示重复、加不进候选池的问题",
-    "修复了 生成文章时偶发弹出黑色命令行窗口的问题",
-    "修复了 云端创作模板偶发提示创作服务暂时不可用的问题",
-    "修复了 定时发布标题被写成文件名、正文混进候选标题块的问题",
-    "修复了 头条文章下载整篇取空、只提示服务端错误的问题",
-    "修复了 一张图成片选好图片却提示无法读取的问题",
-    "优化了 批量导入账号：上百个号几分钟导完，进度实时可见"
+    "修复了 原创写作偶发提示思考耗尽、正文一片空白的问题，现在会自动重写",
+    "修复了 视频处理设置自定义输出目录后、产物仍落在默认目录的问题",
+    "修复了 视频处理结果较多时、右侧参数区被结果表挤掉看不见的问题",
+    "修复了 全书 Word 导出时原文件被 WPS 占用、另存新文件后仍以为失败的问题",
+    "修复了 作品没有章节正文时导出空白文档却不报错的问题",
+    "更改了 服务器升级完成，授权校验与模型通道连接更稳定、更快"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.2.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.3.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "4b4978162cf0f3d907c4efd2a3e10f21eb9ef9bd4e69e01c2ad6bb0e2fc3ce49",
+  "sha256": "90172ccab721775da346ee68e75f6497b4e93d7f6f6768ca5a1a1b61c192dfd7",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "LFteQdTsMwNdIJxCPkRmhODBbiL0Ai6AujW6pHy3OM7S9fxLLb6tLymXSzVYGyhRHy2CF1EFsELXZeyLpmDTCg=="
+  "manifest_sig": "DVcJpNRnFakoGvci0/j4sgpSZ9SVlcdzsURUrcvklQqKaFRFwPRqBrgGk8fhWBV3a7h3PE/G4fps8vnGLedADQ=="
 }
