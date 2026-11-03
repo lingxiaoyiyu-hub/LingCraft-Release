@@ -1,20 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-02 07:31:50",
-  "notices": [
-    {
-      "id": "20261102-073150",
-      "level": "warn",
-      "title": "【限时回馈】11月15日全线恢复原价，终身永久卡首发开放（支持套餐补差）！",
-      "body": "零创自上线以来持续高速迭代，v4.0.0 专属大模型与矩阵发布体系已全面稳定运行。\n\n自 2026年11月15日 24:00 起，各档会员将结束当前促销并全面恢复原价。在此之前，我们特别推出限时回馈活动：\n\n- 截止到 11月15日，限时放出一批【终身永久卡】买断名额，特惠价 498 元；\n- 一次买断，终身免费享有后续所有大版本更新与模型维护，无任何后续费用；\n- 所有老用户均可凭当前在期套餐（月卡/季卡/年卡）按差价折抵升级！\n\n活动截止时间：2026-11-15 24:00（到期准时下架恢复原价）。\n名额有限，先到先得。详情请联系开发者 QQ：574719738 咨询办理。",
-      "link": "",
-      "start_at": "2026-11-02 07:31",
-      "end_at": "2026-11-15 23:59",
-      "min_version": "",
-      "max_version": "",
-      "pinned": true,
-      "once": false
-    }
-  ],
-  "sig": "SyOQWjMFvrbLi2nVE3qcWMVGvt7AN+KmjzMzPS6LPyv1D4GWUpJZzX7xg56N5WNC5LkPBowMSVDLqzjggVofBQ=="
+  "updated_at": "2026-11-03 18:48:53",
+  "notices": [],
+  "sig": "rgMOIKUtXuRFZL6ZUoPsy2fjteH7oedXVkE79Tm8yk8j2tlFwlYi/zrrtG5judL7rrOIf2T7yag1OkzmST06Ag=="
 }
