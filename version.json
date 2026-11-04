@@ -1,21 +1,19 @@
 {
-  "latest_version": "4.0.3",
-  "release_date": "2026-11-03",
+  "latest_version": "4.0.4",
+  "release_date": "2026-11-05",
   "force_update": false,
-  "title": "零创 v4.0.3 · 修复与服务升级",
+  "title": "零创 v4.0.4 · 微头条配图修复",
   "changelog": [
-    "修复了 原创写作偶发提示思考耗尽、正文一片空白的问题，现在会自动重写",
-    "修复了 视频处理设置自定义输出目录后、产物仍落在默认目录的问题",
-    "修复了 视频处理结果较多时、右侧参数区被结果表挤掉看不见的问题",
-    "修复了 全书 Word 导出时原文件被 WPS 占用、另存新文件后仍以为失败的问题",
-    "修复了 作品没有章节正文时导出空白文档却不报错的问题",
-    "更改了 服务器升级完成，授权校验与模型通道连接更稳定、更快"
+    "修复了 微头条带多张配图时只带上一张、甚至一张图都没带上的问题",
+    "修复了 发布时勾选的「作品声明」不生效、作品发出去没有声明的问题",
+    "修复了 微头条配图没传成功却不提示、发出去才发现少图的问题",
+    "修复了 点击左上角图标会跳转、把正在填的内容清空的问题"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.3.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.4.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "90172ccab721775da346ee68e75f6497b4e93d7f6f6768ca5a1a1b61c192dfd7",
+  "sha256": "2f365e6d0497e92b31cc4f73657a0074aab7fe21246269061bacf21dcef4fd43",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "DVcJpNRnFakoGvci0/j4sgpSZ9SVlcdzsURUrcvklQqKaFRFwPRqBrgGk8fhWBV3a7h3PE/G4fps8vnGLedADQ=="
+  "manifest_sig": "IMxIUEHfSLhE1qWM3pB/4GRVzSvlp5y9/ilzMXLDEbmef4pJWt4LiTqYGCV9w/dz2pXxOq42dU2mrIWZ/su/AA=="
 }
