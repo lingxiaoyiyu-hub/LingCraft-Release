@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-07 02:49:27",
+  "updated_at": "2026-11-07 02:55:37",
   "notices": [
     {
       "id": "20261107-031500",
@@ -8,7 +8,7 @@
       "title": "[双11限时回馈] 终身永久卡最后一批 · 11月14日24:00截止",
       "body": "随着功能越来越全面，服务器与模型维护成本持续增加，11月15日起各档会员执行新价格：月卡128 / 季卡288 / 年卡588。\n\n在此之前限时放出[终身永久卡]最后名额：\n- 特惠价498元一次买断，大版本更新与模型维护全包；\n- 老用户凭在期套餐按差价折抵升级，联系客服办理。\n\n11月14日24:00终身卡下架，15日起全部按新价执行。名额有限，先到先得。",
       "link": "",
-      "start_at": "2026-11-07 03:15",
+      "start_at": "2026-11-07 02:55",
       "end_at": "2026-11-15 00:00",
       "min_version": "",
       "max_version": "",
@@ -16,5 +16,5 @@
       "once": false
     }
   ],
-  "sig": "gW9ACJwgL52wv6ETsm171f+TBTfuXy1z27mZWtZp4d0NNEaayfaVQ4xF3AdX4v3+zZZ806cgar7Jaoi+DMgWAA=="
+  "sig": "4Tw5dF7RvgyYITr/vCMQukf6IuPCWZ5sBNYixx4uLwNr0+6LF2Jh6AIhuM4xS0+CBRDt76PyEQhwsm2ZLczFAg=="
 }
