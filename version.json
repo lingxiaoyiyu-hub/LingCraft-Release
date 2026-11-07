@@ -1,19 +1,21 @@
 {
-  "latest_version": "4.0.4",
-  "release_date": "2026-11-05",
+  "latest_version": "4.0.5",
+  "release_date": "2026-11-07",
   "force_update": false,
-  "title": "零创 v4.0.4 · 微头条配图修复",
+  "title": "零创 v4.0.5 · 侧栏小精灵零零与配图排版优化",
   "changelog": [
-    "修复了 微头条带多张配图时只带上一张、甚至一张图都没带上的问题",
-    "修复了 发布时勾选的「作品声明」不生效、作品发出去没有声明的问题",
-    "修复了 微头条配图没传成功却不提示、发出去才发现少图的问题",
-    "修复了 点击左上角图标会跳转、把正在填的内容清空的问题"
+    "新增了 左侧栏终端小精灵「零零」，支持点击互动、新版本提醒与会员到期提醒",
+    "新增了 批量原创与批量改写开跑前自动检测 AI 通道，遇通道异常立即暂停并保护剩余队列",
+    "修复了 文章与微头条配图扎堆在文末、多图连排的问题，改为按段落均匀插图且一段最多一张",
+    "修复了 爆文下载遇微头条或纯图动态时文末图集被误删的问题",
+    "修复了 批量创作重试时未失败的篇目被清空、改写保存后配图丢失的问题",
+    "更改了 顶部公告栏轮播方式，改为按宽度自适应分屏淡入淡出，整句展示更易读"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.4.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.5.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "2f365e6d0497e92b31cc4f73657a0074aab7fe21246269061bacf21dcef4fd43",
+  "sha256": "be399c6713751d7c6b63bb2f7609039f2951ece6d9a13d099057f26e574f8922",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "IMxIUEHfSLhE1qWM3pB/4GRVzSvlp5y9/ilzMXLDEbmef4pJWt4LiTqYGCV9w/dz2pXxOq42dU2mrIWZ/su/AA=="
+  "manifest_sig": "gYrYKkuSUpPIFAB1zka0p6wLM/TGm2f/n7h4v8OHLl0rf/ZnBaczMcp3w8GGm+IR6mFFc8qAH50L7a51StuvDg=="
 }
