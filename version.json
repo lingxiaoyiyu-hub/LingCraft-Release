@@ -1,21 +1,29 @@
 {
-  "latest_version": "4.0.5",
-  "release_date": "2026-11-07",
+  "latest_version": "4.0.6",
+  "release_date": "2026-11-09",
   "force_update": false,
-  "title": "零创 v4.0.5 · 侧栏小精灵零零与配图排版优化",
+  "title": "零创 v4.0.6 · 智能写作合并与小说连续创作",
   "changelog": [
-    "新增了 左侧栏终端小精灵「零零」，支持点击互动、新版本提醒与会员到期提醒",
-    "新增了 批量原创与批量改写开跑前自动检测 AI 通道，遇通道异常立即暂停并保护剩余队列",
-    "修复了 文章与微头条配图扎堆在文末、多图连排的问题，改为按段落均匀插图且一段最多一张",
-    "修复了 爆文下载遇微头条或纯图动态时文末图集被误删的问题",
-    "修复了 批量创作重试时未失败的篇目被清空、改写保存后配图丢失的问题",
-    "更改了 顶部公告栏轮播方式，改为按宽度自适应分屏淡入淡出，整句展示更易读"
+    "新增了「智能写作」：原创与爆款改写合并为一个面板，按内容自动分流，目标字数默认 2000",
+    "新增了小说正文连续创作：点一次自动一章章往下写，每章自动定稿后再写下一章",
+    "新增了公众号存草稿自动设置封面：正文首图优先，无图时按标题生成",
+    "新增了视频处理自动黑边消除、镜头切点吸附与呼吸式微运镜",
+    "新增了下载按板块与按作者双轨合一，链接与板块同屏识别、二选一互斥",
+    "新增了视频成片按三段式爆款标题自动改名，文件名不再带后缀",
+    "修复了视频处理后底部字幕被裁掉的问题",
+    "修复了成稿「参考资料」只剩一行栏目名的问题",
+    "修复了整篇参考文章被当成标题列表、拆成一堆标题的问题",
+    "修复了配图张数少于所选张数的问题",
+    "修复了过检测过程提示被写进正文并发布出去的问题",
+    "修复了使用内置模型时小说工坊提示填写 API Key 的问题",
+    "修复了启动后会员状态显示为未激活的问题",
+    "更改了视频处理参数：变速、轮数等常用项固化为默认值，界面只留标准与深度两档"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.5.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v4.0.6.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "be399c6713751d7c6b63bb2f7609039f2951ece6d9a13d099057f26e574f8922",
+  "sha256": "c0489941e0547d796c5cb54dc4d1faf7af9ab51aa9ea48b327af01f3bb27e270",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "gYrYKkuSUpPIFAB1zka0p6wLM/TGm2f/n7h4v8OHLl0rf/ZnBaczMcp3w8GGm+IR6mFFc8qAH50L7a51StuvDg=="
+  "manifest_sig": "+gKz2vnteIk7sv7O6H0bISGAXQLclBi/Rt3Lz2RPqe19T57YSF638t57vlFuUtnk1g5mh+lpYmvKbSjVwh6TDQ=="
 }
