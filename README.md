@@ -6,13 +6,13 @@
 
 ![零创 AI 创作与润色主工作台](assets/lingcraft_main_v3615.png)
 
-## 立即下载（当前版本 v5.0.0）
+## 立即下载（当前版本 v5.0.1）
 
-- **[下载 LingCraft_Setup_v5.0.0.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.0.exe)**
-  （471.8 MB ｜ Windows 10 / 11 64 位 ｜ 国内直链不限速 ｜ 自动覆盖升级免卸载）
-- 文件名：`LingCraft_Setup_v5.0.0.exe`
-- 文件大小：494,675,993 字节 / 471.8 MB
-- SHA-256：`22ee0e955284a77450a8b56c3d8751ef226e7e5f17f920b4bf329ff0e5cd8dcf`
+- **[下载 LingCraft_Setup_v5.0.1.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.1.exe)**
+  （471.7 MB ｜ Windows 10 / 11 64 位 ｜ 国内直链不限速 ｜ 自动覆盖升级免卸载）
+- 文件名：`LingCraft_Setup_v5.0.1.exe`
+- 文件大小：494,668,209 字节 / 471.7 MB
+- SHA-256：`39c206dbce70e84e1639360593c304bc361a5d246b393f43083334bad98bee30`
 *海外与极客备用通道：[GitHub Releases 官方发行页面](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest)*
 
 *国内主源：[魔搭 ModelScope 发布页](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases)*
@@ -85,7 +85,7 @@
 
 ## 三步上手
 
-1. 下载并运行 `LingCraft_Setup_v5.0.0.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
+1. 下载并运行 `LingCraft_Setup_v5.0.1.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
 2. 输入授权卡密激活（老用户覆盖升级免激活，作品与登录凭据全部保留）。
 3. 在左侧「AI 配置」填入常用模型 API Key（兼容 DeepSeek / 通义千问 / 智谱清言 / Kimi / OpenAI 格式，另内置「开发者福利 · DeepSeek」免密钥通道，开箱即用），即可开始全流程创作。
 
@@ -133,6 +133,7 @@ AI 写作工具 ｜ 今日头条写作工具 ｜ 微头条发布 ｜ 公众号�
 
 ## 更新日志
 
+- **v5.0.1**（2026-11-13）：花生AI 修复包——扫码登录窗口一闪就关、免费账号被拦、登录失效提示找不到入口三项问题已修
 - **v5.0.0**（2026-11-13）：口播稿交给花生AI 一键剪成片、成品直接进成果库；视频可在软件内一键发布到头条与百家号（自动封面与创作声明，支持批量定时）；文章库与爆文库新增「转视频」「批量成片」；修复会员被误判未激活、公众号草稿配图与封面失败、小说章节超长与二稿覆盖整章、AI 图生视频弹黑窗、黑金主题气泡看不清等 5 项问题
 - **v4.0.6**（2026-11-09）：原创与爆款改写合并为「智能写作」按内容自动分流，目标字数默认 2000；小说正文支持**连续创作**，点一次自动一章章往下写、每章自动定稿；公众号存草稿自动设置封面；视频处理新增自动黑边消除、镜头切点吸附与呼吸式微运镜，成片按三段式爆款标题自动改名；修复视频底部字幕被裁、参考资料只剩栏目名、整篇参考文章被拆成标题、配图少配、过程提示写进正文等 7 项问题
 - **v4.0.5**（2026-11-07）：侧栏终端小精灵「零零」上线，顶部公告栏改为自适应分屏淡入淡出；配图落盘统一裁底并按段均匀插图；批量创作新增通道预检与跑中熔断；随包提示词降级为骨架、完整模板走云端；客户端清零内置 Key，未激活统一拦截
