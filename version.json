@@ -1,22 +1,18 @@
 {
-  "latest_version": "5.0.2",
+  "latest_version": "5.0.1",
   "release_date": "2026-11-13",
   "force_update": false,
-  "title": "零创 v5.0.2 · 安装程序与视频流程修复",
+  "title": "零创 v5.0.1 · 花生AI 登录与出片修复",
   "changelog": [
-    "新增了顶栏「官网」与「教程」两个入口，一键直达官网和新手教程",
-    "修复了部分电脑双击安装包就报错、装不上的问题",
-    "修复了花生 AI 成片跑到最后报错、成片被删的问题",
-    "修复了视频定时发布一点发送就失败的问题",
-    "修复了定时任务重启后状态错乱、多账号互相串扰的问题",
-    "修复了激活会员后视频页音色与配置不刷新的问题",
-    "修复了批量成片与视频处理出错后状态卡住不动的问题"
+    "修复了花生AI 扫码登录窗口一闪就关、根本扫不了码的问题",
+    "修复了花生AI 免费账号被拦下、不能出片的问题",
+    "修复了花生AI 登录失效时提示找不到入口、无从下手的问题"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.2.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.1.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "c55bef8943fb2668f5d5ff7335517df9aa8d1baa8f393d14347f9fe008c274e5",
+  "sha256": "39c206dbce70e84e1639360593c304bc361a5d246b393f43083334bad98bee30",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "eG5mrEqod2NqCp0v45FpqkmyLnDDvAv24pynbw17LqgCCLr04p8/awVtK9ks3655FLSoFgZA38F7JsrhjKn9BA=="
+  "manifest_sig": "pr0e25XxB/cEASmuFm8TMlWnqVYcDS4oiT5xGJGpynz/qYnrP5Ecb0HyXlq95X7RTTH5TwQGpnZxehX34FsxBA=="
 }
