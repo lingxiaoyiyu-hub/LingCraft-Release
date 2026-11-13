@@ -1,23 +1,18 @@
 {
-  "latest_version": "5.0.0",
+  "latest_version": "5.0.1",
   "release_date": "2026-11-13",
   "force_update": false,
-  "title": "零创 v5.0.0 · 花生AI 成片与视频一键发布",
+  "title": "零创 v5.0.1 · 花生AI 登录与出片修复",
   "changelog": [
-    "新增了「花生AI 成片」：口播稿一键交给花生剪成片，成品直接进成果库",
-    "新增了视频发布：头条与百家号一键发布，自动封面、声明，支持批量定时",
-    "新增了文章一键转视频，视频库可批量成片",
-    "修复了会员被误判未激活的问题",
-    "修复了公众号存草稿配图带不进、封面设置失败",
-    "修复了小说章节超长、二稿覆盖整章成残句",
-    "修复了 AI 图生视频连续弹出黑窗",
-    "修复了黑金主题下气泡文字看不清"
+    "修复了花生AI 扫码登录窗口一闪就关、根本扫不了码的问题",
+    "修复了花生AI 免费账号被拦下、不能出片的问题",
+    "修复了花生AI 登录失效时提示找不到入口、无从下手的问题"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.0.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.1.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "22ee0e955284a77450a8b56c3d8751ef226e7e5f17f920b4bf329ff0e5cd8dcf",
+  "sha256": "39c206dbce70e84e1639360593c304bc361a5d246b393f43083334bad98bee30",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "nslbOi16b2wIM3eY4fE5aIkP22ZhSfXAZMWfdc7pbrtnOctA6a3NwpfkQeiEDT7qFSqZOUWMW6Ggt2EVvXWlAQ=="
+  "manifest_sig": "pr0e25XxB/cEASmuFm8TMlWnqVYcDS4oiT5xGJGpynz/qYnrP5Ecb0HyXlq95X7RTTH5TwQGpnZxehX34FsxBA=="
 }
