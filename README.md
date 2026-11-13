@@ -6,13 +6,13 @@
 
 ![零创 AI 创作与润色主工作台](assets/lingcraft_main_v3615.png)
 
-## 立即下载（当前版本 v5.0.1）
+## 立即下载（当前版本 v5.0.2）
 
-- **[下载 LingCraft_Setup_v5.0.1.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.1.exe)**
-  （471.7 MB ｜ Windows 10 / 11 64 位 ｜ 国内直链不限速 ｜ 自动覆盖升级免卸载）
-- 文件名：`LingCraft_Setup_v5.0.1.exe`
-- 文件大小：494,668,209 字节 / 471.7 MB
-- SHA-256：`39c206dbce70e84e1639360593c304bc361a5d246b393f43083334bad98bee30`
+- **[下载 LingCraft_Setup_v5.0.2.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.2.exe)**
+  （474.6 MB ｜ Windows 10 / 11 64 位 ｜ 国内直链不限速 ｜ 自动覆盖升级免卸载）
+- 文件名：`LingCraft_Setup_v5.0.2.exe`
+- 文件大小：497,614,106 字节 / 474.6 MB
+- SHA-256：`5dcd99beefd682c35cd45fd096d67e6b2bcdf60cf822e80d9cf042945c7a7dd1`
 *海外与极客备用通道：[GitHub Releases 官方发行页面](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest)*
 
 *国内主源：[魔搭 ModelScope 发布页](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases)*
@@ -85,7 +85,7 @@
 
 ## 三步上手
 
-1. 下载并运行 `LingCraft_Setup_v5.0.1.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
+1. 下载并运行 `LingCraft_Setup_v5.0.2.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
 2. 输入授权卡密激活（老用户覆盖升级免激活，作品与登录凭据全部保留）。
 3. 在左侧「AI 配置」填入常用模型 API Key（兼容 DeepSeek / 通义千问 / 智谱清言 / Kimi / OpenAI 格式，另内置「开发者福利 · DeepSeek」免密钥通道，开箱即用），即可开始全流程创作。
 
