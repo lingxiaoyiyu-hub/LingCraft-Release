@@ -1,22 +1,25 @@
 {
-  "latest_version": "5.0.2",
-  "release_date": "2026-11-13",
+  "latest_version": "5.0.3",
+  "release_date": "2026-11-14",
   "force_update": false,
-  "title": "零创 v5.0.2 · 安装程序与视频流程修复",
+  "title": "零创 v5.0.3 · 下载提速、界面精简与视频修复",
   "changelog": [
-    "新增了顶栏「官网」与「教程」两个入口，一键直达官网和新手教程",
-    "修复了部分电脑双击安装包就报错、装不上的问题",
-    "修复了花生 AI 成片跑到最后报错、成片被删的问题",
-    "修复了视频定时发布一点发送就失败的问题",
-    "修复了定时任务重启后状态错乱、多账号互相串扰的问题",
-    "修复了激活会员后视频页音色与配置不刷新的问题",
-    "修复了批量成片与视频处理出错后状态卡住不动的问题"
+    "新增了板块与全网爆文自动屏蔽官媒及机构号功能，指定作者链接仍可正常下载",
+    "修复了百家号爆款视频下载时链接串号，导致全下成同一条默认视频的问题",
+    "修复了已删除头条文章被当作「404错误页」下载的问题，并自动清理旧列表残留",
+    "修复了花生 AI 扫码登录后无法立刻识别、音色需重启软件才刷新的问题",
+    "修复了花生 AI 方案 A 误标「免费」的误导，明确扣费与余额提示均来自 B 站官方",
+    "优化了文章与爆文批量下载流程，改为并发抓取与并发处理配图，大幅减少等待时间",
+    "优化了文章、爆文与视频下载界面，移除冗余开关、收紧参数同排并自动隐藏空闲监控",
+    "优化了 AI 配置与视频配音，折叠低频高级设置并将配音精简为原声与 7 种常用音色",
+    "更改了部分旧功能入口，下线「不停下载」巡检并暂时隐藏「AI编剧」以降低上手难度",
+    "优化了左侧栏「零零」小助手外观，采用全新流线白瓷造型并适配全套界面主题"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.2.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.3.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "5dcd99beefd682c35cd45fd096d67e6b2bcdf60cf822e80d9cf042945c7a7dd1",
+  "sha256": "443078b1282c816e6b9d8c29f89cd66f472706fdba80e7d1ccc44d6d3e69f68e",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "k2DiyVdST9As/ekVBrZP56aBiIH41HgO0YyNaQgaMijPIHy+fBnMGfvHuLGdxeUZGSP1levK0S2LfTNZS5rhAg=="
+  "manifest_sig": "Ybbw2t3nwPuek4Uq4vDw1xiuXqwW9DH7MluEqwxmKwaOKkzo43McvIc85uF/vaKLYpehMkC7FjfHoVznv6yWDQ=="
 }
