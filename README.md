@@ -6,13 +6,13 @@
 
 ![零创 AI 创作与润色主工作台](assets/lingcraft_main_v3615.png)
 
-## 立即下载（当前版本 v5.0.3）
+## 立即下载（当前版本 v5.0.4）
 
-- **[下载 LingCraft_Setup_v5.0.3.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.3.exe)**
+- **[下载 LingCraft_Setup_v5.0.4.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.4.exe)**
   （474.6 MB ｜ Windows 10 / 11 64 位 ｜ 国内直链不限速 ｜ 自动覆盖升级免卸载）
-- 文件名：`LingCraft_Setup_v5.0.3.exe`
-- 文件大小：497,651,629 字节 / 474.6 MB
-- SHA-256：`443078b1282c816e6b9d8c29f89cd66f472706fdba80e7d1ccc44d6d3e69f68e`
+- 文件名：`LingCraft_Setup_v5.0.4.exe`
+- 文件大小：497,702,968 字节 / 474.6 MB
+- SHA-256：`8dc46cd84b2d24eda9e972d82f6f39bcedb5fac46b48b7ccaf731e77cd35bb4f`
 *海外与极客备用通道：[GitHub Releases 官方发行页面](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest)*
 
 *国内主源：[魔搭 ModelScope 发布页](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases)*
@@ -85,7 +85,7 @@
 
 ## 三步上手
 
-1. 下载并运行 `LingCraft_Setup_v5.0.3.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
+1. 下载并运行 `LingCraft_Setup_v5.0.4.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
 2. 输入授权卡密激活（老用户覆盖升级免激活，作品与登录凭据全部保留）。
 3. 在左侧「AI 配置」填入常用模型 API Key（兼容 DeepSeek / 通义千问 / 智谱清言 / Kimi / OpenAI 格式，另内置「开发者福利 · DeepSeek」免密钥通道，开箱即用），即可开始全流程创作。
 
@@ -133,6 +133,7 @@ AI 写作工具 ｜ 今日头条写作工具 ｜ 微头条发布 ｜ 公众号�
 
 ## 更新日志
 
+- **v5.0.4**（2026-11-16）：全网爆文支持「加载更多」深挖（首屏 500+ 篇、可扩至 2000 篇），智能写作默认新增「智能匹配」按题材自动配范文，爆款视频库新增底部分页导航与跨页同步勾选；修复头条发布默认误选「取材网络」、官媒屏蔽漏网「新闻」/矩阵/政务号、下载坏图裂图、中文混散英文单词、头条标题高频问号、爆款选题截断及震惊体/占位词、花生AI 成片断连、AI 视频润色书面腔与批量时长语调未透传等 8 项问题；恢复 AI 配置参数平铺展示，升级「零零」多种新动作表情与单入口顶栏会员徽标
 - **v5.0.3**（2026-11-14）：板块下载与全网爆文自动屏蔽官媒及机构号（指定作者链接仍可下载）；修复百家号爆款视频全部下成同一条默认视频、已删头条成「404错误页」并清理旧残留、花生AI 扫码后不立刻识别且音色需重启才刷新、花生AI 方案A 误标「免费」误导等问题；文章与爆文改为并发抓取与并发处理配图大幅提速；精简下载页/AI 配置/视频配音、下线「不停下载」并暂隐「AI编剧」；「零零」小助手换新流线白瓷造型
 - **v5.0.2**（2026-11-13）：安装与视频流程修复包——部分电脑双击安装包报错、装不上的问题已修；花生AI 成片跑到最后报错、成片被删已修；视频定时发布一点发送就失败、重启后状态错乱与多账号串扰已修；批量成片出错后状态卡住已修；顶栏新增「官网」「教程」入口
 - **v5.0.1**（2026-11-13）：花生AI 修复包——扫码登录窗口一闪就关、免费账号被拦、登录失效提示找不到入口三项问题已修
