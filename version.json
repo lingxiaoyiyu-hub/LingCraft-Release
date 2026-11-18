@@ -1,29 +1,22 @@
 {
-  "latest_version": "5.0.4",
-  "release_date": "2026-11-16",
+  "latest_version": "5.0.5",
+  "release_date": "2026-11-18",
   "force_update": false,
-  "title": "零创 v5.0.4 · 爆文放量扩容、智能配文与多项发布修复",
+  "title": "零创 v5.0.5 · 账号IP隔离、三段式标题提炼与多项精简修复",
   "changelog": [
-    "新增了全网爆文「加载更多」深挖，首屏提至 500 篇以上并支持扩至 2000 篇",
-    "新增了智能写作默认「智能匹配」模板，可按题材自动配范文并减少 AI 套话",
-    "新增了爆款视频库底部分页导航，每页固定 10 条并支持跨页同步勾选",
-    "修复了头条发布默认勾选「取材网络」的问题，改为默认「引用AI」避免未声明限流",
-    "修复了文章与全网爆文屏蔽官媒后仍漏出带「新闻」字样、矩阵号及政务号的问题",
-    "修复了文章下载偶发配图损坏裂图或漏图的问题，自动过滤坏图并补齐懒加载图片",
-    "修复了生成中文文章偶发混入零散英文单词的问题，收尾自动检出并就地修正",
-    "修复了头条标题高频出现问号结尾的问题，并打通改写链路对爆款标题库的检索",
-    "修复了爆款选题在通用平台与多关键词下结果截断、出现震惊体或占位词的问题",
-    "修复了花生 AI 成片偶发连接中断报错的问题，补齐网络自动重试与断点续传",
-    "修复了 AI 视频润色书面腔与字数跑偏问题，批量成片支持透传所选语调与时长",
-    "更改了 AI 配置中写作与生图模型界面，恢复参数框与报错说明直接平铺展示",
-    "优化了「零零」小助手，新增完工庆祝、报错提醒与连点转晕彩蛋及日常小动作",
-    "优化了顶栏会员入口，合并重复按钮为单入口展示并适配全部四套界面主题"
+    "新增了账号出口 IP 隔离，支持代理池配置与一键给多账号分配独立代理",
+    "新增了正文完成后单独提炼三段式标题，减少编造数字与半截句",
+    "修复了已生成文章导出 ZIP 压缩包时部分场景报错的问题",
+    "修复了绑定带密码代理时无法联网及健康代理被误判拦截的问题",
+    "更改了找文入口布局，将「文章下载」与「全网爆文」合并为「爆文下载」",
+    "更改了配图来源选项，合并多个图库为「自动配图（推荐）」默认开箱即用",
+    "优化了设置页与界面选项，固定配图并发并精简多处低频冷门入口"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.4.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.5.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "8dc46cd84b2d24eda9e972d82f6f39bcedb5fac46b48b7ccaf731e77cd35bb4f",
+  "sha256": "d55b00f0c4d9f0d8b80f2e6ccb37e6de928f845c8a57c5140f8f8c88e6536551",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "986fCMELiNFMVHobiI8cxfew44rqOwwBZag1gMl3UE7IkYleyRXZ1W8c6dziWu4W/JR6UeV1ClHtBRlYtBWSCQ=="
+  "manifest_sig": "EACnHGjukIoDzEjilCTckKoAubTLVvXFzRJpAS3ZAT22dGFemV1CON3E/KZoCvgJtNZEhZrclT/VC+rgHzimCQ=="
 }
