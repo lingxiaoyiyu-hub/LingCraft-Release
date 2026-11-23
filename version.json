@@ -1,22 +1,22 @@
 {
-  "latest_version": "5.0.5",
-  "release_date": "2026-11-18",
+  "latest_version": "6.0.0",
+  "release_date": "2026-11-23",
   "force_update": false,
-  "title": "零创 v5.0.5 · 账号IP隔离、三段式标题提炼与多项精简修复",
+  "title": "零创 v6.0.0 · 谷歌 Gemini 高级模型、新手引导与界面升级",
   "changelog": [
-    "新增了账号出口 IP 隔离，支持代理池配置与一键给多账号分配独立代理",
-    "新增了正文完成后单独提炼三段式标题，减少编造数字与半截句",
-    "修复了已生成文章导出 ZIP 压缩包时部分场景报错的问题",
-    "修复了绑定带密码代理时无法联网及健康代理被误判拦截的问题",
-    "更改了找文入口布局，将「文章下载」与「全网爆文」合并为「爆文下载」",
-    "更改了配图来源选项，合并多个图库为「自动配图（推荐）」默认开箱即用",
-    "优化了设置页与界面选项，固定配图并发并精简多处低频冷门入口"
+    "新增了谷歌 Gemini 高级模型通道，会员赠 10 次试用并支持卡密充值",
+    "新增了文章、小说、视频及设置等高频模块的交互式新手引导",
+    "新增了年度 SVIP 方案与顶栏按卡种区分的金属会员徽标",
+    "修复了单篇创作正文完成后卡在配图假死及垃圾配图误插的问题",
+    "修复了文案成片拆分镜重复计次及异常中断未退回次数的问题",
+    "优化了爆文下载高风险赛道风险提示，并统一多处列表勾选导出 Word",
+    "优化了创作与设置页交互精简，文案成片默认自动匹配随机背景音乐"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v5.0.5.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v6.0.0.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "d55b00f0c4d9f0d8b80f2e6ccb37e6de928f845c8a57c5140f8f8c88e6536551",
+  "sha256": "b1d52fee46b4767dc46f4d21200bd2666fce2058e7c7bb9ed3af6a66a113f3ef",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "EACnHGjukIoDzEjilCTckKoAubTLVvXFzRJpAS3ZAT22dGFemV1CON3E/KZoCvgJtNZEhZrclT/VC+rgHzimCQ=="
+  "manifest_sig": "qMNvqpY99oYEZcN45k9a1Lliam6gHpnA1P0F6LLls3CcoovV4aGcPTylrxNH8uqbBa5a662y8w2dIkCtymNWBQ=="
 }
