@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-23 10:25:58",
+  "updated_at": "2026-11-23 10:27:20",
   "notices": [
+    {
+      "id": "20261123-102720",
+      "level": "warn",
+      "title": "请更新至最新版本 6.0.0",
+      "body": "新版修复了单篇创作配图卡住、拆分镜重复计次等问题，并上线谷歌 Gemini 高级写作模型。点左下角「检查更新」即可升级，建议尽快更新。",
+      "link": "",
+      "start_at": "2026-11-23 10:27",
+      "end_at": "2026-12-07 10:27",
+      "min_version": "",
+      "max_version": "",
+      "pinned": false,
+      "once": false
+    },
     {
       "id": "20261123-094626",
       "level": "info",
@@ -16,5 +29,5 @@
       "once": false
     }
   ],
-  "sig": "7RT7lgg+TbnOnr2bPNLMGn6bVkffXiz6xxPEb2P/h/y/FnYrx9luWTqb6d6JLjJzdwJQtkdXVN7ZRQMPHcdIBg=="
+  "sig": "RK4yevL7qoZxYQ12VEkVP64MZ0laOg29G5v2A1Hci3gKUYndjIARlvhkVnJx/86kTbyuuWKW7YJTIFQsswQ/Cw=="
 }
