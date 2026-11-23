@@ -1,22 +1,17 @@
 {
-  "latest_version": "6.0.0",
+  "latest_version": "6.0.1",
   "release_date": "2026-11-23",
   "force_update": false,
-  "title": "零创 v6.0.0 · 谷歌 Gemini 高级模型、新手引导与界面升级",
+  "title": "零创 v6.0.1 · 花生账号显示修复",
   "changelog": [
-    "新增了谷歌 Gemini 高级模型通道，会员赠 10 次试用并支持卡密充值",
-    "新增了文章、小说、视频及设置等高频模块的交互式新手引导",
-    "新增了年度 SVIP 方案与顶栏按卡种区分的金属会员徽标",
-    "修复了单篇创作正文完成后卡在配图假死及垃圾配图误插的问题",
-    "修复了文案成片拆分镜重复计次及异常中断未退回次数的问题",
-    "优化了爆文下载高风险赛道风险提示，并统一多处列表勾选导出 Word",
-    "优化了创作与设置页交互精简，文案成片默认自动匹配随机背景音乐"
+    "修复了花生AI 面板会员状态与花生米余额始终显示为 0 的问题",
+    "优化了花生米不足时的提示，会写明当前登录的账号、会员有效期与余额"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v6.0.0.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v6.0.1.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "b1d52fee46b4767dc46f4d21200bd2666fce2058e7c7bb9ed3af6a66a113f3ef",
+  "sha256": "790f9ec92eeb07412195e44933d58b588f15f7287fa48697a33ff7318c58f570",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "qMNvqpY99oYEZcN45k9a1Lliam6gHpnA1P0F6LLls3CcoovV4aGcPTylrxNH8uqbBa5a662y8w2dIkCtymNWBQ=="
+  "manifest_sig": "cooeeg+yzk24nSqitQw5cB/SUuYx0oMg9ESwOyFR22eu29j/4WosS2mufzBX8JEkbOT8Pn4O2f5NeeXVqCtOBA=="
 }
