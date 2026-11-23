@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-23 10:27:20",
+  "updated_at": "2026-11-23 16:23:21",
   "notices": [
     {
       "id": "20261123-102720",
       "level": "warn",
-      "title": "请更新至最新版本 6.0.0",
-      "body": "新版修复了单篇创作配图卡住、拆分镜重复计次等问题，并上线谷歌 Gemini 高级写作模型。点左下角「检查更新」即可升级，建议尽快更新。",
+      "title": "请更新至最新版本6.0.1",
+      "body": "本次修复了花生AI 面板会员状态和花生米余额始终显示为 0 的问题，并优化了花生米不足时的提示。点左下角「检查更新」即可升级，建议尽快更新。",
       "link": "",
       "start_at": "2026-11-23 10:27",
       "end_at": "2026-12-07 10:27",
@@ -29,5 +29,5 @@
       "once": false
     }
   ],
-  "sig": "RK4yevL7qoZxYQ12VEkVP64MZ0laOg29G5v2A1Hci3gKUYndjIARlvhkVnJx/86kTbyuuWKW7YJTIFQsswQ/Cw=="
+  "sig": "57ChVzUC1Y9xvskpDAw5TrSWW4nKlD6BjCcmRQ6bJwxM3yBUD7UUUi5ar7htQYy4rKJi8TOHuBblB51YKbP/Bw=="
 }
