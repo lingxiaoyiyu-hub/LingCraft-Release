@@ -1,6 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-14 23:55:35",
-  "notices": [],
-  "sig": "rgMOIKUtXuRFZL6ZUoPsy2fjteH7oedXVkE79Tm8yk8j2tlFwlYi/zrrtG5judL7rrOIf2T7yag1OkzmST06Ag=="
+  "updated_at": "2026-11-23 09:46:26",
+  "notices": [
+    {
+      "id": "20261123-094626",
+      "level": "info",
+      "title": "关于限流封号，给大家几点建议",
+      "body": "最近有用户反馈账号遇到限流甚至封号的情况，这里统一说明一下。常见原因主要有以下几类：一是选了高敏感领域，如时政、医疗健康、财经投资、国际、社会热点等，新号极易触发审核；二是内容被判为低质，软件内置的免费模型虽然是国内一线的 DeepSeek 与 GLM 路由模型，但与国际顶尖模型相比仍有一定差距；三是多个账号共用同一网络发文，被识别为批量操作；四是短时间内发文过于频繁。针对这些情况，软件已做了几项调整：爆文下载中容易触发审核的板块已默认折叠，并标注风险提示，新手请尽量避开；账号管理支持为每个账号分配独立出口 IP，多号运营建议开启；同时新上线了谷歌 Gemini 高级写作模型，中文表达更自然细腻，能明显改善内容低质的问题，如果你的文章常被判低质，推荐切换使用。切换方法：AI 设置 → 写作模型 → 选择「谷歌 Gemini 高级（按次收费）」并保存。会员赠送 10 次免费试用，用完可兑换次数包（10元50次 · 100元1000次），年卡会员联系客服享 7 折。",
+      "link": "",
+      "start_at": "2026-11-23 09:46",
+      "end_at": "2026-12-07 09:46",
+      "min_version": "",
+      "max_version": "",
+      "pinned": false,
+      "once": false
+    }
+  ],
+  "sig": "0iu//VGb5RDz7qGkq/GxGEljztNxxiCU/epoAZPh0FH343oxf/rJl7uDkOPVDbm1XCgC01zAAigudraUI+WSDw=="
 }
