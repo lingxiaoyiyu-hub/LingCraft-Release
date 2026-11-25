@@ -1,20 +1,7 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-23 16:23:21",
+  "updated_at": "2026-11-25 15:07:35",
   "notices": [
-    {
-      "id": "20261123-102720",
-      "level": "warn",
-      "title": "请更新至最新版本6.0.1",
-      "body": "本次修复了花生AI 面板会员状态和花生米余额始终显示为 0 的问题，并优化了花生米不足时的提示。点左下角「检查更新」即可升级，建议尽快更新。",
-      "link": "",
-      "start_at": "2026-11-23 10:27",
-      "end_at": "2026-12-07 10:27",
-      "min_version": "",
-      "max_version": "",
-      "pinned": false,
-      "once": false
-    },
     {
       "id": "20261123-094626",
       "level": "info",
@@ -29,5 +16,5 @@
       "once": false
     }
   ],
-  "sig": "57ChVzUC1Y9xvskpDAw5TrSWW4nKlD6BjCcmRQ6bJwxM3yBUD7UUUi5ar7htQYy4rKJi8TOHuBblB51YKbP/Bw=="
+  "sig": "7RT7lgg+TbnOnr2bPNLMGn6bVkffXiz6xxPEb2P/h/y/FnYrx9luWTqb6d6JLjJzdwJQtkdXVN7ZRQMPHcdIBg=="
 }
