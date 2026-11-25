@@ -1,17 +1,30 @@
 {
-  "latest_version": "6.0.1",
-  "release_date": "2026-11-23",
+  "latest_version": "6.0.2",
+  "release_date": "2026-11-25",
   "force_update": false,
-  "title": "零创 v6.0.1 · 花生账号显示修复",
+  "title": "零创 v6.0.2 · 配图过滤、单遍出稿与全站修复",
   "changelog": [
-    "修复了花生AI 面板会员状态与花生米余额始终显示为 0 的问题",
-    "优化了花生米不足时的提示，会写明当前登录的账号、会员有效期与余额"
+    "新增了文章与爆文导出 Word 按篇存为独立文件，支持选文件夹批量保存",
+    "新增了使用原文配图时自动过滤关注横幅与章节分隔条，避免无关图插进正文",
+    "新增了抖音与热门视频批量下载「停止下载」按钮，支持中途随时中止",
+    "新增了顶栏「官网」快捷入口，点击即可一键直达零创官网",
+    "修复了批量或定时发布撞当日上限、掉线假成功及取消单篇误伤其他排期的问题",
+    "修复了创作中断、停止或未出正文时未退回高级次数及已成稿丢失的问题",
+    "修复了确认弹窗按 ESC 或点空白关闭后，下次点确定误执行上次操作的问题",
+    "修复了小说删卷后后续章号错乱、大纲报错覆盖原稿及多卷导出乱序的问题",
+    "修复了视频去重裁黑边后画面变形、处理卡死及取消任务误伤新任务的问题",
+    "修复了文章下载勾选错位误导出全库、下载中止仍显示 100% 的问题",
+    "修复了系统代理异常时软件启动卡死及卸载程序找不到安装目录的问题",
+    "修复了花生AI 音色假项、扫码换号假成功及导出遇特殊字符报错的问题",
+    "优化了原创与改写改为单遍一次出稿，省去多轮等待并改善成稿与标题质量",
+    "优化了抖音批量下载速度，复用浏览器并发分片下载，大文件明显提速",
+    "更改了文章创作默认字数为 1800 字，批量并发上限统一为 5 路"
   ],
-  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v6.0.1.exe",
+  "download_url": "https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v6.0.2.exe",
   "hot_update_zip_url": "",
   "min_hot_update_version": "3.5.14",
-  "sha256": "790f9ec92eeb07412195e44933d58b588f15f7287fa48697a33ff7318c58f570",
+  "sha256": "50ae550e9e2aa586d066feac520e8252f3484f7c62e263426d4f917a5034786e",
   "announcement": null,
   "sha256_zip": "",
-  "manifest_sig": "cooeeg+yzk24nSqitQw5cB/SUuYx0oMg9ESwOyFR22eu29j/4WosS2mufzBX8JEkbOT8Pn4O2f5NeeXVqCtOBA=="
+  "manifest_sig": "s0MDO0CnISdezMwEUzEt/4zBFtn4Z0oyHWxveZW+qRKO1xUPuMILpfGeKWMIBryWSHGhSgDcqOdUdmUqyXVQDg=="
 }
