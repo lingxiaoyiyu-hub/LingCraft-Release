@@ -6,13 +6,13 @@
 
 ![零创 AI 创作与润色主工作台](assets/lingcraft_main_v3615.png)
 
-## 立即下载（当前版本 v6.0.2）
+## 立即下载（当前版本 v6.0.3）
 
-- **[下载 LingCraft_Setup_v6.0.2.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v6.0.2.exe)**
+- **[下载 LingCraft_Setup_v6.0.3.exe（安装向导版）](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases/resolve/master/LingCraft_Setup_v6.0.3.exe)**
   （474.2 MB ｜ Windows 10 / 11 64 位 ｜ 国内直链不限速 ｜ 自动覆盖升级免卸载）
-- 文件名：`LingCraft_Setup_v6.0.2.exe`
-- 文件大小：497,252,101 字节 / 474.2 MB
-- SHA-256：`50ae550e9e2aa586d066feac520e8252f3484f7c62e263426d4f917a5034786e`
+- 文件名：`LingCraft_Setup_v6.0.3.exe`
+- 文件大小：497,253,204 字节 / 474.2 MB
+- SHA-256：`2d96fc7314b6fafd4980a28409171bb131f9b8d6e2c7bc3f2f5da2eb4b770710`
 *海外与极客备用通道：[GitHub Releases 官方发行页面](https://github.com/lingxiaoyiyu-hub/LingCraft-Release/releases/latest)*
 
 *国内主源：[魔搭 ModelScope 发布页](https://www.modelscope.cn/models/lingxiaoyiyu/lingcraft-releases)*
@@ -85,7 +85,7 @@
 
 ## 三步上手
 
-1. 下载并运行 `LingCraft_Setup_v6.0.2.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
+1. 下载并运行 `LingCraft_Setup_v6.0.3.exe` 进行安装（如遇 Windows SmartScreen 拦截：点「更多信息」→「仍要运行」）。
 2. 输入授权卡密激活（老用户覆盖升级免激活，作品与登录凭据全部保留）。
 3. 在左侧「AI 配置」填入常用模型 API Key（兼容 DeepSeek / 通义千问 / 智谱清言 / Kimi / OpenAI 格式，另内置「开发者福利 · DeepSeek」免密钥通道，开箱即用），即可开始全流程创作。
 
@@ -133,6 +133,7 @@ AI 写作工具 ｜ 今日头条写作工具 ｜ 微头条发布 ｜ 公众号�
 
 ## 更新日志
 
+- **v6.0.3**（2026-11-25）：修复了「AI 找选题」点击生成选题时报错无法出题的问题；修复了全网爆文连续切换筛选时旧结果覆盖及翻页误清空勾选的问题
 - **v6.0.2**（2026-11-25）：新增爆文独立按篇导出 Word、原文配图自动过滤关注横幅与章节分隔条、抖音/热门视频批量下载「停止下载」与顶栏「官网」入口；修复批量或定时发布撞上限/掉线假成功/取消单篇误伤其他排期、创作中断或未出正文退回高级次数及已成稿丢失、确认弹窗按 ESC 误执行、小说删卷章号错乱及导出乱序、视频处理裁黑边变形/处理卡死、下载勾选错位误导出全库、系统代理异常启动卡死、卸载定位失败及花生AI 音色假项与扫码换号问题；优化原创与改写单遍一次出稿并提速抖音并发分片下载，文章默认字数调为 1800 字、批量并发上限统一为 5 路
 - **v6.0.1**（2026-11-23）：修复了花生AI 账号区会员状态与花生米余额始终显示为 0 的问题，现在会显示当前登录的昵称、会员有效期与余额，花生米不足的提示里也会写明这些信息
 - **v6.0.0**（2026-11-23）：新增谷歌 Gemini 高级写作模型通道（会员赠 10 次试用，支持卡密兑换充值、按次计费且异常失败自动退回次数）；上线文章、小说、视频与 AI 设置交互式新手引导；推出年度 SVIP 方案与顶栏按卡种区分的金属会员徽标；修复单篇创作写完正文后卡在配图假死、垃圾图误插及文案成片拆分镜重复扣次等问题；优化爆文下载高风险赛道折叠警示、统一多处列表勾选导出 Word，成片默认自动匹配随机背景音乐并精简多项设置入口
